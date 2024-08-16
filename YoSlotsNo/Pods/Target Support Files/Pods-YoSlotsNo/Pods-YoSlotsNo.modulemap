@@ -1,0 +1,6 @@
+framework module Pods_YoSlotsNo {
+  umbrella header "Pods-YoSlotsNo-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -56,16 +56,11 @@ public extension IQKeyboardManagerWrapper where Base: UIScrollView {
      */
     var ignoreScrollingAdjustment: Bool {
         get {
-            if let base = base {
-                return objc_getAssociatedObject(base, &AssociatedKeys.ignoreScrollingAdjustment) as? Bool ?? false
-            }
-            return false
+            return objc_getAssociatedObject(base, &AssociatedKeys.ignoreScrollingAdjustment) as? Bool ?? false
         }
         set(newValue) {
-            if let base = base {
-                objc_setAssociatedObject(base, &AssociatedKeys.ignoreScrollingAdjustment,
-                                         newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
-            }
+            objc_setAssociatedObject(base, &AssociatedKeys.ignoreScrollingAdjustment,
+                                     newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
         }
     }
 
@@ -75,16 +70,11 @@ public extension IQKeyboardManagerWrapper where Base: UIScrollView {
      */
     var ignoreContentInsetAdjustment: Bool {
         get {
-            if let base = base {
-                return objc_getAssociatedObject(base, &AssociatedKeys.ignoreContentInsetAdjustment) as? Bool ?? false
-            }
-            return false
+            return objc_getAssociatedObject(base, &AssociatedKeys.ignoreContentInsetAdjustment) as? Bool ?? false
         }
         set(newValue) {
-            if let base = base {
-                objc_setAssociatedObject(base, &AssociatedKeys.ignoreContentInsetAdjustment,
-                                         newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
-            }
+            objc_setAssociatedObject(base, &AssociatedKeys.ignoreContentInsetAdjustment,
+                                     newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
         }
     }
 
@@ -93,16 +83,11 @@ public extension IQKeyboardManagerWrapper where Base: UIScrollView {
      */
     var restoreContentOffset: Bool {
         get {
-            if let base = base {
-                return objc_getAssociatedObject(base, &AssociatedKeys.restoreContentOffset) as? Bool ?? false
-            }
-            return false
+            return objc_getAssociatedObject(base, &AssociatedKeys.restoreContentOffset) as? Bool ?? false
         }
         set(newValue) {
-            if let base = base {
-                objc_setAssociatedObject(base, &AssociatedKeys.restoreContentOffset,
-                                         newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
-            }
+            objc_setAssociatedObject(base, &AssociatedKeys.restoreContentOffset,
+                                     newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
         }
     }
 }

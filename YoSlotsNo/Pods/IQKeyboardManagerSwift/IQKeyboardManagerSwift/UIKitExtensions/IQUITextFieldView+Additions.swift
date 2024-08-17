@@ -54,18 +54,15 @@ public extension IQKeyboardManagerWrapper where Base: UIView {
      */
     var distanceFromKeyboard: CGFloat {
         get {
-            if let base = base {
-                if let value = objc_getAssociatedObject(base, &AssociatedKeys.distanceFromKeyboard) as? CGFloat {
-                    return value
-                }
+            if let value = objc_getAssociatedObject(base, &AssociatedKeys.distanceFromKeyboard) as? CGFloat {
+                return value
+            } else {
+                return UIView.defaultKeyboardDistance
             }
-            return UIView.defaultKeyboardDistance
         }
         set(newValue) {
-            if let base = base {
-                objc_setAssociatedObject(base, &AssociatedKeys.distanceFromKeyboard,
-                                         newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
-            }
+            objc_setAssociatedObject(base, &AssociatedKeys.distanceFromKeyboard,
+                                     newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
         }
     }
 
@@ -76,16 +73,11 @@ public extension IQKeyboardManagerWrapper where Base: UIView {
      */
     var ignoreSwitchingByNextPrevious: Bool {
         get {
-            if let base = base {
-                return objc_getAssociatedObject(base, &AssociatedKeys.ignoreSwitchingByNextPrevious) as? Bool ?? false
-            }
-            return false
+            return objc_getAssociatedObject(base, &AssociatedKeys.ignoreSwitchingByNextPrevious) as? Bool ?? false
         }
         set(newValue) {
-            if let base = base {
-                objc_setAssociatedObject(base, &AssociatedKeys.ignoreSwitchingByNextPrevious,
-                                         newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
-            }
+            objc_setAssociatedObject(base, &AssociatedKeys.ignoreSwitchingByNextPrevious,
+                                     newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
         }
     }
 
@@ -94,15 +86,10 @@ public extension IQKeyboardManagerWrapper where Base: UIView {
      */
     var enableMode: IQEnableMode {
         get {
-            if let base = base {
-                return objc_getAssociatedObject(base, &AssociatedKeys.enableMode) as? IQEnableMode ?? .default
-            }
-            return .default
+            return objc_getAssociatedObject(base, &AssociatedKeys.enableMode) as? IQEnableMode ?? .default
         }
         set(newValue) {
-            if let base = base {
-                objc_setAssociatedObject(base, &AssociatedKeys.enableMode, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
-            }
+            objc_setAssociatedObject(base, &AssociatedKeys.enableMode, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
         }
     }
 
@@ -111,16 +98,11 @@ public extension IQKeyboardManagerWrapper where Base: UIView {
      */
     var resignOnTouchOutsideMode: IQEnableMode {
         get {
-            guard let base = base else {
-                return .default
-            }
             return objc_getAssociatedObject(base, &AssociatedKeys.resignOnTouchOutsideMode) as? IQEnableMode ?? .default
         }
         set(newValue) {
-            if let base = base {
-                objc_setAssociatedObject(base, &AssociatedKeys.resignOnTouchOutsideMode,
-                                         newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
-            }
+            objc_setAssociatedObject(base, &AssociatedKeys.resignOnTouchOutsideMode,
+                                     newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
         }
     }
 }

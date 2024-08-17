@@ -37,7 +37,7 @@
 		C656F5B72C6E06E500A0A446 /* libicucore.A.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C656F5B22C6E068200A0A446 /* libicucore.A.tbd */; };
 		C656F5B92C6E06F800A0A446 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C656F5B82C6E06ED00A0A446 /* libz.tbd */; };
 		C656F5C82C6F531700A0A446 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = C656F5C72C6F531700A0A446 /* assets */; };
-		C656F5CB2C6F5D8400A0A446 /* Slotgame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C656F5CA2C6F5D8400A0A446 /* Slotgame.swift */; };
+		C656F5CB2C6F5D8400A0A446 /* YoSlotsNoSlotGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C656F5CA2C6F5D8400A0A446 /* YoSlotsNoSlotGameVC.swift */; };
 		C6EB70692C6E02BD00997721 /* HDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EB70682C6E02BD00997721 /* HDAppDelegate.m */; };
 		C6EB70722C6E02BD00997721 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6EB70702C6E02BD00997721 /* Main.storyboard */; };
 		C6EB70742C6E02BF00997721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6EB70732C6E02BF00997721 /* Assets.xcassets */; };
@@ -46,15 +46,15 @@
 		C6EB70842C6E02C000997721 /* YoSlotsNoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EB70832C6E02C000997721 /* YoSlotsNoTests.m */; };
 		C6EB708E2C6E02C000997721 /* YoSlotsNoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EB708D2C6E02C000997721 /* YoSlotsNoUITests.m */; };
 		C6EB70902C6E02C000997721 /* YoSlotsNoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EB708F2C6E02C000997721 /* YoSlotsNoUITestsLaunchTests.m */; };
-		C6EB70B22C6E039200997721 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EB709E2C6E038F00997721 /* SettingVC.swift */; };
-		C6EB70B32C6E039200997721 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EB709F2C6E038F00997721 /* ViewController.swift */; };
+		C6EB70B22C6E039200997721 /* YoSlotsNoSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EB709E2C6E038F00997721 /* YoSlotsNoSettingVC.swift */; };
+		C6EB70B32C6E039200997721 /* YoSlotsNoMainGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EB709F2C6E038F00997721 /* YoSlotsNoMainGameViewController.swift */; };
 		C6EB70B42C6E039200997721 /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C6EB70A52C6E039000997721 /* RootViewController.mm */; };
 		C6EB70B62C6E039200997721 /* Ext + UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EB70A72C6E039000997721 /* Ext + UIView.swift */; };
-		C6EB70B72C6E039200997721 /* ThirdGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EB70A92C6E039100997721 /* ThirdGame.swift */; };
+		C6EB70B72C6E039200997721 /* YoSlotsNoSlotGameVCGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EB70A92C6E039100997721 /* YoSlotsNoSlotGameVCGameVC.swift */; };
 		C6EB70B82C6E039200997721 /* YoSNoHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EB70AA2C6E039100997721 /* YoSNoHomeViewController.m */; };
 		C6EB70B92C6E039200997721 /* PlatformIosApi.mm in Sources */ = {isa = PBXBuildFile; fileRef = C6EB70AB2C6E039100997721 /* PlatformIosApi.mm */; };
 		C6EB70BA2C6E039200997721 /* SDKWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EB70AC2C6E039100997721 /* SDKWrapper.m */; };
-		C6EB70BB2C6E039200997721 /* SecondGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EB70AD2C6E039100997721 /* SecondGame.swift */; };
+		C6EB70BB2C6E039200997721 /* YoSlotsNoSecondGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EB70AD2C6E039100997721 /* YoSlotsNoSecondGameVC.swift */; };
 		C6EB70BC2C6E039200997721 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C6EB70AF2C6E039100997721 /* AppController.mm */; };
 		C6EB70BD2C6E039200997721 /* wrapnew.png in Resources */ = {isa = PBXBuildFile; fileRef = C6EB70B02C6E039200997721 /* wrapnew.png */; };
 		C6EB70BE2C6E039200997721 /* FeedBackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EB70B12C6E039200997721 /* FeedBackVC.swift */; };
@@ -65,6 +65,10 @@
 		C6EB70D12C6E040F00997721 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = C6EB70CC2C6E040F00997721 /* main.js */; };
 		C6EB70D22C6E040F00997721 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6EB70CD2C6E040F00997721 /* Localizable.strings */; };
 		C6EB70D32C6E040F00997721 /* src in Resources */ = {isa = PBXBuildFile; fileRef = C6EB70CE2C6E040F00997721 /* src */; };
+		FF5C5CD82C70834B00537787 /* YoSlotsNoWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5C5CD72C70834B00537787 /* YoSlotsNoWheelView.swift */; };
+		FF5C5CDB2C70839F00537787 /* YoSlotsNoAboutUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5C5CDA2C70839F00537787 /* YoSlotsNoAboutUsVC.swift */; };
+		FF5C5CDD2C7083B600537787 /* YoSlotsNoTANDCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5C5CDC2C7083B600537787 /* YoSlotsNoTANDCVC.swift */; };
+		FF5C5CDF2C7083D400537787 /* YoSlotsNoPrivacyPolicyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5C5CDE2C7083D400537787 /* YoSlotsNoPrivacyPolicyVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -135,7 +139,7 @@
 		C656F5B52C6E06CD00A0A446 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		C656F5B82C6E06ED00A0A446 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		C656F5C72C6F531700A0A446 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = "jsb-default/assets"; sourceTree = "<group>"; };
-		C656F5CA2C6F5D8400A0A446 /* Slotgame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slotgame.swift; sourceTree = "<group>"; };
+		C656F5CA2C6F5D8400A0A446 /* YoSlotsNoSlotGameVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoSlotsNoSlotGameVC.swift; sourceTree = "<group>"; };
 		C6EB70642C6E02BD00997721 /* YoSlotsNo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoSlotsNo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6EB70672C6E02BD00997721 /* HDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDAppDelegate.h; sourceTree = "<group>"; };
 		C6EB70682C6E02BD00997721 /* HDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDAppDelegate.m; sourceTree = "<group>"; };
@@ -150,8 +154,8 @@
 		C6EB708D2C6E02C000997721 /* YoSlotsNoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoSlotsNoUITests.m; sourceTree = "<group>"; };
 		C6EB708F2C6E02C000997721 /* YoSlotsNoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoSlotsNoUITestsLaunchTests.m; sourceTree = "<group>"; };
 		C6EB709D2C6E038E00997721 /* YoSlotsNo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YoSlotsNo-Bridging-Header.h"; sourceTree = "<group>"; };
-		C6EB709E2C6E038F00997721 /* SettingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
-		C6EB709F2C6E038F00997721 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6EB709E2C6E038F00997721 /* YoSlotsNoSettingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoSlotsNoSettingVC.swift; sourceTree = "<group>"; };
+		C6EB709F2C6E038F00997721 /* YoSlotsNoMainGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoSlotsNoMainGameViewController.swift; sourceTree = "<group>"; };
 		C6EB70A02C6E038F00997721 /* SDKDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKDelegate.h; sourceTree = "<group>"; };
 		C6EB70A12C6E039000997721 /* YoSNoHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoSNoHomeViewController.h; sourceTree = "<group>"; };
 		C6EB70A22C6E039000997721 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
@@ -160,11 +164,11 @@
 		C6EB70A52C6E039000997721 /* RootViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RootViewController.mm; sourceTree = "<group>"; };
 		C6EB70A72C6E039000997721 /* Ext + UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ext + UIView.swift"; sourceTree = "<group>"; };
 		C6EB70A82C6E039000997721 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		C6EB70A92C6E039100997721 /* ThirdGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdGame.swift; sourceTree = "<group>"; };
+		C6EB70A92C6E039100997721 /* YoSlotsNoSlotGameVCGameVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoSlotsNoSlotGameVCGameVC.swift; sourceTree = "<group>"; };
 		C6EB70AA2C6E039100997721 /* YoSNoHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YoSNoHomeViewController.m; sourceTree = "<group>"; };
 		C6EB70AB2C6E039100997721 /* PlatformIosApi.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PlatformIosApi.mm; sourceTree = "<group>"; };
 		C6EB70AC2C6E039100997721 /* SDKWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKWrapper.m; sourceTree = "<group>"; };
-		C6EB70AD2C6E039100997721 /* SecondGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondGame.swift; sourceTree = "<group>"; };
+		C6EB70AD2C6E039100997721 /* YoSlotsNoSecondGameVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoSlotsNoSecondGameVC.swift; sourceTree = "<group>"; };
 		C6EB70AE2C6E039100997721 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		C6EB70AF2C6E039100997721 /* AppController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppController.mm; sourceTree = "<group>"; };
 		C6EB70B02C6E039200997721 /* wrapnew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrapnew.png; sourceTree = "<group>"; };
@@ -181,6 +185,10 @@
 		C6EB70D42C6E046000997721 /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = "cocos2d-x/build/cocos2d_libs.xcodeproj"; sourceTree = "<group>"; };
 		E37EB7D4241681B516D62F28 /* Pods-YoSlotsNo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoSlotsNo.release.xcconfig"; path = "Target Support Files/Pods-YoSlotsNo/Pods-YoSlotsNo.release.xcconfig"; sourceTree = "<group>"; };
 		EAEDB95AF157C4BCC3AA8F67 /* Pods_YoSlotsNo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoSlotsNo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5C5CD72C70834B00537787 /* YoSlotsNoWheelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoSlotsNoWheelView.swift; sourceTree = "<group>"; };
+		FF5C5CDA2C70839F00537787 /* YoSlotsNoAboutUsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoSlotsNoAboutUsVC.swift; sourceTree = "<group>"; };
+		FF5C5CDC2C7083B600537787 /* YoSlotsNoTANDCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoSlotsNoTANDCVC.swift; sourceTree = "<group>"; };
+		FF5C5CDE2C7083D400537787 /* YoSlotsNoPrivacyPolicyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoSlotsNoPrivacyPolicyVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -301,11 +309,17 @@
 		C6EB70662C6E02BD00997721 /* YoSlotsNo */ = {
 			isa = PBXGroup;
 			children = (
-				C656F5CA2C6F5D8400A0A446 /* Slotgame.swift */,
 				C6EB70A22C6E039000997721 /* AppController.h */,
 				C6EB70AF2C6E039100997721 /* AppController.mm */,
+				C6EB70732C6E02BF00997721 /* Assets.xcassets */,
 				C6EB70A72C6E039000997721 /* Ext + UIView.swift */,
 				C6EB70B12C6E039200997721 /* FeedBackVC.swift */,
+				C6EB70672C6E02BD00997721 /* HDAppDelegate.h */,
+				C6EB70682C6E02BD00997721 /* HDAppDelegate.m */,
+				C6EB70782C6E02BF00997721 /* Info.plist */,
+				C6EB70752C6E02BF00997721 /* LaunchScreen.storyboard */,
+				C6EB70792C6E02BF00997721 /* main.m */,
+				C6EB70702C6E02BD00997721 /* Main.storyboard */,
 				C6EB70A32C6E039000997721 /* PlatformIosApi.h */,
 				C6EB70AB2C6E039100997721 /* PlatformIosApi.mm */,
 				C6EB70AE2C6E039100997721 /* Prefix.pch */,
@@ -314,21 +328,19 @@
 				C6EB70A02C6E038F00997721 /* SDKDelegate.h */,
 				C6EB70A42C6E039000997721 /* SDKWrapper.h */,
 				C6EB70AC2C6E039100997721 /* SDKWrapper.m */,
-				C6EB70AD2C6E039100997721 /* SecondGame.swift */,
-				C6EB709E2C6E038F00997721 /* SettingVC.swift */,
-				C6EB70A92C6E039100997721 /* ThirdGame.swift */,
-				C6EB709F2C6E038F00997721 /* ViewController.swift */,
+				C6EB70AD2C6E039100997721 /* YoSlotsNoSecondGameVC.swift */,
+				C6EB709E2C6E038F00997721 /* YoSlotsNoSettingVC.swift */,
+				FF5C5CDE2C7083D400537787 /* YoSlotsNoPrivacyPolicyVC.swift */,
+				FF5C5CDC2C7083B600537787 /* YoSlotsNoTANDCVC.swift */,
+				FF5C5CDA2C70839F00537787 /* YoSlotsNoAboutUsVC.swift */,
+				C656F5CA2C6F5D8400A0A446 /* YoSlotsNoSlotGameVC.swift */,
+				C6EB70A92C6E039100997721 /* YoSlotsNoSlotGameVCGameVC.swift */,
+				C6EB709F2C6E038F00997721 /* YoSlotsNoMainGameViewController.swift */,
+				FF5C5CD72C70834B00537787 /* YoSlotsNoWheelView.swift */,
 				C6EB70B02C6E039200997721 /* wrapnew.png */,
+				C6EB709D2C6E038E00997721 /* YoSlotsNo-Bridging-Header.h */,
 				C6EB70A12C6E039000997721 /* YoSNoHomeViewController.h */,
 				C6EB70AA2C6E039100997721 /* YoSNoHomeViewController.m */,
-				C6EB70672C6E02BD00997721 /* HDAppDelegate.h */,
-				C6EB70682C6E02BD00997721 /* HDAppDelegate.m */,
-				C6EB70702C6E02BD00997721 /* Main.storyboard */,
-				C6EB70732C6E02BF00997721 /* Assets.xcassets */,
-				C6EB70752C6E02BF00997721 /* LaunchScreen.storyboard */,
-				C6EB70782C6E02BF00997721 /* Info.plist */,
-				C6EB70792C6E02BF00997721 /* main.m */,
-				C6EB709D2C6E038E00997721 /* YoSlotsNo-Bridging-Header.h */,
 			);
 			path = YoSlotsNo;
 			sourceTree = "<group>";
@@ -597,22 +609,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF5C5CDF2C7083D400537787 /* YoSlotsNoPrivacyPolicyVC.swift in Sources */,
 				C6EB70692C6E02BD00997721 /* HDAppDelegate.m in Sources */,
 				C6EB70B42C6E039200997721 /* RootViewController.mm in Sources */,
-				C6EB70B22C6E039200997721 /* SettingVC.swift in Sources */,
-				C6EB70B32C6E039200997721 /* ViewController.swift in Sources */,
+				C6EB70B22C6E039200997721 /* YoSlotsNoSettingVC.swift in Sources */,
+				FF5C5CDB2C70839F00537787 /* YoSlotsNoAboutUsVC.swift in Sources */,
+				FF5C5CDD2C7083B600537787 /* YoSlotsNoTANDCVC.swift in Sources */,
+				C6EB70B32C6E039200997721 /* YoSlotsNoMainGameViewController.swift in Sources */,
 				C6EB70BA2C6E039200997721 /* SDKWrapper.m in Sources */,
-				C656F5CB2C6F5D8400A0A446 /* Slotgame.swift in Sources */,
+				C656F5CB2C6F5D8400A0A446 /* YoSlotsNoSlotGameVC.swift in Sources */,
 				C6EB70B82C6E039200997721 /* YoSNoHomeViewController.m in Sources */,
 				C6EB70B92C6E039200997721 /* PlatformIosApi.mm in Sources */,
 				C6EB70BE2C6E039200997721 /* FeedBackVC.swift in Sources */,
 				C6EB70C72C6E03E700997721 /* jsb_module_register.cpp in Sources */,
 				C6EB707A2C6E02BF00997721 /* main.m in Sources */,
 				C6EB70BC2C6E039200997721 /* AppController.mm in Sources */,
+				FF5C5CD82C70834B00537787 /* YoSlotsNoWheelView.swift in Sources */,
 				C6EB70C82C6E03E700997721 /* AppDelegate.cpp in Sources */,
-				C6EB70BB2C6E039200997721 /* SecondGame.swift in Sources */,
+				C6EB70BB2C6E039200997721 /* YoSlotsNoSecondGameVC.swift in Sources */,
 				C6EB70B62C6E039200997721 /* Ext + UIView.swift in Sources */,
-				C6EB70B72C6E039200997721 /* ThirdGame.swift in Sources */,
+				C6EB70B72C6E039200997721 /* YoSlotsNoSlotGameVCGameVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -836,30 +852,38 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = YoSlotsNo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = YoSlotsNo;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Obtain and analyze device information to provide users with a more unique gaming experience";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.REALTY.JackpotSlotJubile.YoSlotsNo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.REALTY.JackpotSlotJubilee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "YoSlotsNo/YoSlotsNo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/cocos2d-x/cocos/platform/ios",
@@ -880,29 +904,36 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = YoSlotsNo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = YoSlotsNo;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Obtain and analyze device information to provide users with a more unique gaming experience";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.REALTY.JackpotSlotJubile.YoSlotsNo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.REALTY.JackpotSlotJubilee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "YoSlotsNo/YoSlotsNo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/cocos2d-x/cocos/platform/ios",

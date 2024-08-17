@@ -34,7 +34,6 @@
 #import <AppTrackingTransparency/AppTrackingTransparency.h>
 #import <AdSupport/AdSupport.h>
 
-
 using namespace cocos2d;
 
 @implementation AppController

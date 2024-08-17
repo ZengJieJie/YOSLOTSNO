@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Jfc-Hs-Zyx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="landscape" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Yo Slots No Main Game View Controller-->
         <scene sceneID="eTH-LI-dJT">
             <objects>
-                <viewController storyboardIdentifier="ViewController" id="q1j-A2-4uc" customClass="ViewController" customModule="YoSlotsNo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" id="q1j-A2-4uc" customClass="YoSlotsNoMainGameViewController" customModule="YoSlotsNo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Af6-7N-eVG">
                         <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -21,7 +20,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="TMx-Yv-to5">
                                 <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                             </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nmt-iP-ELh" customClass="WheelView" customModule="YoSlotsNo" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nmt-iP-ELh" customClass="YoSlotsNoWheelView" customModule="YoSlotsNo" customModuleProvider="target">
                                 <rect key="frame" x="326" y="96.666666666666686" width="200" height="200"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -30,27 +29,27 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JDU-7X-EHJ">
-                                <rect key="frame" x="713" y="29" width="60" height="22"/>
+                                <rect key="frame" x="772" y="29" width="60" height="22"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="hd1-3c-J85">
-                                <rect key="frame" x="645" y="132.66666666666666" width="128" height="127.99999999999997"/>
+                                <rect key="frame" x="704" y="132.66666666666666" width="128" height="127.99999999999997"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="hd1-3c-J85" secondAttribute="height" multiplier="1:1" id="MOe-mb-TfS"/>
                                     <constraint firstAttribute="height" constant="128" id="WqW-gJ-INN"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Dg8-X0-24a">
-                                <rect key="frame" x="99" y="132.66666666666666" width="128" height="127.99999999999997"/>
+                                <rect key="frame" x="40" y="132.66666666666666" width="128" height="127.99999999999997"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="7mb-oR-S9s"/>
                                     <constraint firstAttribute="width" secondItem="Dg8-X0-24a" secondAttribute="height" multiplier="1:1" id="h2Y-zH-tcG"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NWD-uw-a1z">
-                                <rect key="frame" x="99" y="20" width="40" height="40"/>
+                                <rect key="frame" x="40" y="20" width="40" height="40"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="P8n-Ft-kZR"/>
@@ -75,7 +74,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ked-kP-SWH">
-                                <rect key="frame" x="623" y="292" width="150" height="60"/>
+                                <rect key="frame" x="682" y="313" width="150" height="60"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="bht-dO-kyB"/>
@@ -127,7 +126,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vdv-Fx-FnS" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="739.28571428571422" y="56.521739130434788"/>
+            <point key="canvasLocation" x="39" y="253"/>
         </scene>
         <!--Feed BackVC-->
         <scene sceneID="X7t-Ki-dWo">
@@ -167,26 +166,26 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="ghT-n6-tER">
-                                <rect key="frame" x="119" y="141.66666666666666" width="654" height="110"/>
+                                <rect key="frame" x="60" y="141.66666666666666" width="772" height="110"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Js2-A6-SB2">
-                                        <rect key="frame" x="0.0" y="0.0" width="114.66666666666667" height="110"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="138.33333333333334" height="110"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NoU-4T-zFp">
-                                        <rect key="frame" x="134.66666666666666" y="0.0" width="115" height="110"/>
+                                        <rect key="frame" x="158.33333333333331" y="0.0" width="138.33333333333331" height="110"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lrT-nl-6xe">
-                                        <rect key="frame" x="269.66666666666669" y="0.0" width="114.66666666666669" height="110"/>
+                                        <rect key="frame" x="316.66666666666669" y="0.0" width="138.66666666666669" height="110"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K20-Aa-BPQ">
-                                        <rect key="frame" x="404.33333333333337" y="0.0" width="115" height="110"/>
+                                        <rect key="frame" x="475.33333333333331" y="0.0" width="138.33333333333331" height="110"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6pu-zw-bQw">
-                                        <rect key="frame" x="539.33333333333337" y="0.0" width="114.66666666666663" height="110"/>
+                                        <rect key="frame" x="633.66666666666663" y="0.0" width="138.33333333333337" height="110"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                     </button>
                                 </subviews>
@@ -195,7 +194,7 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W4I-DM-6NX">
-                                <rect key="frame" x="119" y="292" width="654" height="60"/>
+                                <rect key="frame" x="60" y="313" width="772" height="60"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="iP2-Ir-Lt0"/>
@@ -248,10 +247,10 @@
             </objects>
             <point key="canvasLocation" x="1327" y="796"/>
         </scene>
-        <!--Game View Controller-->
+        <!--Yo Slots No Slot GameVC GameVC-->
         <scene sceneID="PGY-ey-vtO">
             <objects>
-                <viewController storyboardIdentifier="GameViewController" id="gpZ-Wa-coY" customClass="GameViewController" customModule="YoSlotsNo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GameViewController" id="gpZ-Wa-coY" customClass="YoSlotsNoSlotGameVCGameVC" customModule="YoSlotsNo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fDQ-77-QfP">
                         <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -266,7 +265,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x2t-59-fkF">
-                                <rect key="frame" x="99" y="20" width="40" height="40"/>
+                                <rect key="frame" x="40" y="20" width="40" height="40"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="UYK-lm-gYU"/>
@@ -285,13 +284,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gKi-gm-I3E">
-                                <rect key="frame" x="718" y="27.666666666666664" width="55" height="24.666666666666664"/>
+                                <rect key="frame" x="777" y="27.666666666666664" width="55" height="24.666666666666664"/>
                                 <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="gYC-Le-zA0">
-                                <rect key="frame" x="119" y="79.999999999999986" width="634" height="227.66666666666663"/>
+                                <rect key="frame" x="60" y="79.999999999999986" width="752" height="248.66666666666663"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="9ja-Fh-zKh">
                                     <size key="itemSize" width="128" height="128"/>
@@ -311,13 +310,13 @@
                                 </cells>
                             </collectionView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Baf-z0-FhM">
-                                <rect key="frame" x="393.66666666666669" y="327.66666666666669" width="65" height="24.333333333333314"/>
+                                <rect key="frame" x="393.66666666666669" y="348.66666666666669" width="65" height="24.333333333333314"/>
                                 <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XdA-7g-9ZM">
-                                <rect key="frame" x="727" y="318" width="46" height="34"/>
+                                <rect key="frame" x="786" y="339" width="46" height="34"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Reset">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -358,10 +357,10 @@
             </objects>
             <point key="canvasLocation" x="1985.4910714285713" y="56.521739130434788"/>
         </scene>
-        <!--TANDC-->
+        <!--Yo Slots NoTANDCVC-->
         <scene sceneID="385-U0-XmC">
             <objects>
-                <viewController storyboardIdentifier="TANDC" id="Xfw-DF-WUR" customClass="TANDC" customModule="YoSlotsNo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TANDC" id="Xfw-DF-WUR" customClass="YoSlotsNoTANDCVC" customModule="YoSlotsNo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ocN-jv-WRa">
                         <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -396,7 +395,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v32-0h-Tms">
-                                <rect key="frame" x="99" y="71" width="674" height="301"/>
+                                <rect key="frame" x="40" y="71" width="792" height="322"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -1661,10 +1660,10 @@ By continuing to access or use Our Service after those revisions become effectiv
             </objects>
             <point key="canvasLocation" x="1369" y="-672"/>
         </scene>
-        <!--About Us-->
+        <!--Yo Slots No About UsVC-->
         <scene sceneID="Pxd-Nr-VQ8">
             <objects>
-                <viewController storyboardIdentifier="AboutUs" id="qRp-Ue-M2U" customClass="AboutUs" customModule="YoSlotsNo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AboutUs" id="qRp-Ue-M2U" customClass="YoSlotsNoAboutUsVC" customModule="YoSlotsNo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ath-VO-JKH">
                         <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1699,7 +1698,7 @@ By continuing to access or use Our Service after those revisions become effectiv
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Hfb-bl-p9P">
-                                <rect key="frame" x="99" y="71" width="674" height="301"/>
+                                <rect key="frame" x="40" y="71" width="792" height="322"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">JackpotSlotJubilee
 Welcome to JackpotSlotJubilee, where thrilling adventures and big wins await! Dive into a world of excitement with our diverse game offerings. Spin the jackpot wheel for a chance to win fantastic prizes, harness elemental powers in our unique spin elements game, and embark on a treasure hunt to uncover hidden riches. Each feature is designed to deliver endless entertainment and rewards. Whether you’re a seasoned player or new to slot games, JackpotSlotJubilee promises a captivating experience with every spin. Join us today and let the fun begin as you chase jackpots, explore magical elements, and discover treasures beyond your wildest dreams!</string>
@@ -1731,10 +1730,10 @@ Welcome to JackpotSlotJubilee, where thrilling adventures and big wins await! Di
             </objects>
             <point key="canvasLocation" x="739.28571428571422" y="-672.46376811594212"/>
         </scene>
-        <!--SettingVC-->
+        <!--Yo Slots No SettingVC-->
         <scene sceneID="arU-71-AxR">
             <objects>
-                <viewController storyboardIdentifier="SettingVC" id="rD8-1R-onM" customClass="SettingVC" customModule="YoSlotsNo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SettingVC" id="rD8-1R-onM" customClass="YoSlotsNoSettingVC" customModule="YoSlotsNo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dCR-iR-9iT">
                         <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1769,7 +1768,7 @@ Welcome to JackpotSlotJubilee, where thrilling adventures and big wins await! Di
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="22x-ab-nOf">
-                                <rect key="frame" x="60" y="46" width="772" height="318"/>
+                                <rect key="frame" x="60" y="67" width="772" height="318"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JsJ-D1-KLh">
                                         <rect key="frame" x="0.0" y="0.0" width="244" height="318"/>
@@ -2066,12 +2065,12 @@ Welcome to JackpotSlotJubilee, where thrilling adventures and big wins await! Di
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VYd-jA-fU1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="109.82142857142857" y="56.521739130434788"/>
+            <point key="canvasLocation" x="-734" y="1086"/>
         </scene>
-        <!--Second Game-->
+        <!--Yo Slots No Second GameVC-->
         <scene sceneID="5mx-Yp-E0M">
             <objects>
-                <viewController storyboardIdentifier="SecondGame" id="UwT-d4-r9X" customClass="SecondGame" customModule="YoSlotsNo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SecondGame" id="UwT-d4-r9X" customClass="YoSlotsNoSecondGameVC" customModule="YoSlotsNo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="biS-6K-2tt">
                         <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2086,7 +2085,7 @@ Welcome to JackpotSlotJubilee, where thrilling adventures and big wins await! Di
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oVg-dU-peR">
-                                <rect key="frame" x="99" y="20" width="40" height="40"/>
+                                <rect key="frame" x="40" y="20" width="40" height="40"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="oVg-dU-peR" secondAttribute="height" multiplier="1:1" id="YCd-K0-qmj"/>
@@ -2113,13 +2112,13 @@ Welcome to JackpotSlotJubilee, where thrilling adventures and big wins await! Di
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ulI-DB-oBl">
-                                <rect key="frame" x="716.66666666666663" y="27.666666666666664" width="56.333333333333371" height="24.666666666666664"/>
+                                <rect key="frame" x="775.66666666666663" y="27.666666666666664" width="56.333333333333371" height="24.666666666666664"/>
                                 <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="lXU-gm-zDA">
-                                <rect key="frame" x="119" y="292" width="150" height="60"/>
+                                <rect key="frame" x="60" y="313" width="150" height="60"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="lXU-gm-zDA" secondAttribute="height" multiplier="1:0.4" id="j25-rM-TM9"/>
@@ -2140,7 +2139,7 @@ Welcome to JackpotSlotJubilee, where thrilling adventures and big wins await! Di
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u48-g6-0cc">
-                                <rect key="frame" x="623" y="292" width="150" height="60"/>
+                                <rect key="frame" x="682" y="313" width="150" height="60"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="u48-g6-0cc" secondAttribute="height" multiplier="1:0.4" id="xiE-Aq-ADx"/>
@@ -2194,10 +2193,10 @@ Welcome to JackpotSlotJubilee, where thrilling adventures and big wins await! Di
             </objects>
             <point key="canvasLocation" x="1368.75" y="56.521739130434788"/>
         </scene>
-        <!--Slot Game-->
+        <!--Yo Slots No Slot GameVC-->
         <scene sceneID="3l2-sl-sup">
             <objects>
-                <viewController storyboardIdentifier="SlotGame" id="ZDs-SJ-wWm" customClass="SlotGame" customModule="YoSlotsNo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SlotGame" id="ZDs-SJ-wWm" customClass="YoSlotsNoSlotGameVC" customModule="YoSlotsNo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7Lh-3e-Zma">
                         <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2212,7 +2211,7 @@ Welcome to JackpotSlotJubilee, where thrilling adventures and big wins await! Di
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VhG-oc-ZxC">
-                                <rect key="frame" x="99" y="20" width="40" height="40"/>
+                                <rect key="frame" x="40" y="20" width="40" height="40"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="PLy-sb-5qS"/>
@@ -2231,22 +2230,22 @@ Welcome to JackpotSlotJubilee, where thrilling adventures and big wins await! Di
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="97k-eJ-g5h">
-                                <rect key="frame" x="217" y="59.666666666666657" width="418" height="292.66666666666674"/>
+                                <rect key="frame" x="158" y="29" width="536" height="375"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="machine" translatesAutoresizingMaskIntoConstraints="NO" id="fES-um-TEJ">
-                                        <rect key="frame" x="0.0" y="0.0" width="418" height="292.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="536" height="375"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="1KQ-rs-ksM">
-                                        <rect key="frame" x="80" y="66.666666666666643" width="228" height="159.33333333333337"/>
+                                        <rect key="frame" x="80" y="66.333333333333329" width="346" height="242.33333333333337"/>
                                         <subviews>
                                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fiM-ii-rmv">
-                                                <rect key="frame" x="0.0" y="0.0" width="54.666666666666664" height="159.33333333333334"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="94" height="242.33333333333334"/>
                                             </pickerView>
                                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mf0-Ob-uX2">
-                                                <rect key="frame" x="86.666666666666686" y="0.0" width="54.666666666666657" height="159.33333333333334"/>
+                                                <rect key="frame" x="126" y="0.0" width="94" height="242.33333333333334"/>
                                             </pickerView>
                                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lFI-D4-vFJ">
-                                                <rect key="frame" x="173.33333333333331" y="0.0" width="54.666666666666657" height="159.33333333333334"/>
+                                                <rect key="frame" x="252" y="0.0" width="94" height="242.33333333333334"/>
                                             </pickerView>
                                         </subviews>
                                         <constraints>
@@ -2267,13 +2266,13 @@ Welcome to JackpotSlotJubilee, where thrilling adventures and big wins await! Di
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l7t-1v-zTK">
-                                <rect key="frame" x="716.66666666666663" y="28" width="56.333333333333371" height="24.333333333333329"/>
+                                <rect key="frame" x="775.66666666666663" y="28" width="56.333333333333371" height="24.333333333333329"/>
                                 <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QqV-0U-FGa">
-                                <rect key="frame" x="653" y="292" width="120" height="60"/>
+                                <rect key="frame" x="712" y="313" width="120" height="60"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="QqV-0U-FGa" secondAttribute="height" multiplier="1:0.5" id="Q1X-rq-Tpl"/>
@@ -2289,7 +2288,7 @@ Welcome to JackpotSlotJubilee, where thrilling adventures and big wins await! Di
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ivV-Sz-Lpr">
-                                <rect key="frame" x="40.000000000000014" y="292" width="180.33333333333337" height="60"/>
+                                <rect key="frame" x="40.000000000000014" y="313" width="180.33333333333337" height="60"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="faE-CB-oHz">
                                         <rect key="frame" x="8" y="8" width="44" height="44"/>
@@ -2341,13 +2340,13 @@ Welcome to JackpotSlotJubilee, where thrilling adventures and big wins await! Di
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="khu-cR-EU8">
-                                <rect key="frame" x="705" y="250" width="68" height="22"/>
+                                <rect key="frame" x="764" y="271" width="68" height="22"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="VIg-uE-43N">
-                                <rect key="frame" x="119" y="80" width="100" height="100"/>
+                                <rect key="frame" x="60" y="80" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="VIg-uE-43N" secondAttribute="height" multiplier="1:1" id="DBm-7x-tvA"/>
                                     <constraint firstAttribute="height" constant="100" id="qNp-kY-xZG"/>
@@ -2398,12 +2397,12 @@ Welcome to JackpotSlotJubilee, where thrilling adventures and big wins await! Di
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="25j-JM-MQd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="636.83035714285711" y="795.6521739130435"/>
+            <point key="canvasLocation" x="604" y="1120"/>
         </scene>
-        <!--Privacy Policy-->
+        <!--Yo Slots No Privacy PolicyVC-->
         <scene sceneID="vzm-ur-rYq">
             <objects>
-                <viewController storyboardIdentifier="PrivacyPolicy" id="RQk-Gk-7Wf" customClass="PrivacyPolicy" customModule="YoSlotsNo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PrivacyPolicy" id="RQk-Gk-7Wf" customClass="YoSlotsNoPrivacyPolicyVC" customModule="YoSlotsNo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ffk-1C-cMb">
                         <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2438,7 +2437,7 @@ Welcome to JackpotSlotJubilee, where thrilling adventures and big wins await! Di
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="te9-fi-5xQ">
-                                <rect key="frame" x="99" y="71" width="674" height="301"/>
+                                <rect key="frame" x="40" y="71" width="792" height="322"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -4882,12 +4881,10 @@ You are advised to review this Privacy Policy periodically for any changes. Chan
                 <navigationController storyboardIdentifier="YourNavigationControllerIdentifier" automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Jfc-Hs-Zyx" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="72p-vf-JDH">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="MBW-9A-rBB" kind="relationship" relationship="rootViewController" id="dZk-C7-BV8"/>
-                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hnr-Pz-xBn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

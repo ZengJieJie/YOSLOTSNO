@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Dla-c9-yJo">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Dla-c9-yJo">
     <device id="retina6_12" orientation="landscape" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -264,7 +264,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="291" height="275"/>
                                             </imageView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="wle-fI-k1e">
-                                                <rect key="frame" x="70" y="113" width="151" height="69"/>
+                                                <rect key="frame" x="70" y="83" width="151" height="69"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RRi-8k-Gaw">
                                                         <rect key="frame" x="0.0" y="0.0" width="43.666666666666664" height="69"/>
@@ -320,7 +320,7 @@
                                             <constraint firstItem="wle-fI-k1e" firstAttribute="height" secondItem="bA5-Nf-zdw" secondAttribute="height" multiplier="0.25" id="OcY-Oy-17u"/>
                                             <constraint firstItem="bA5-Nf-zdw" firstAttribute="top" secondItem="VLk-Kn-OFZ" secondAttribute="top" id="Q6M-NM-E5I"/>
                                             <constraint firstItem="wle-fI-k1e" firstAttribute="centerX" secondItem="VLk-Kn-OFZ" secondAttribute="centerX" id="WHx-N8-oG2"/>
-                                            <constraint firstItem="wle-fI-k1e" firstAttribute="centerY" secondItem="VLk-Kn-OFZ" secondAttribute="centerY" constant="10" id="XpX-Jb-pn5"/>
+                                            <constraint firstItem="wle-fI-k1e" firstAttribute="centerY" secondItem="VLk-Kn-OFZ" secondAttribute="centerY" constant="-20" id="XpX-Jb-pn5"/>
                                             <constraint firstAttribute="trailing" secondItem="bA5-Nf-zdw" secondAttribute="trailing" id="ilg-zA-uWX"/>
                                             <constraint firstItem="bA5-Nf-zdw" firstAttribute="leading" secondItem="VLk-Kn-OFZ" secondAttribute="leading" id="p9w-kr-faN"/>
                                             <constraint firstAttribute="bottom" secondItem="bA5-Nf-zdw" secondAttribute="bottom" id="sH9-ex-Ket"/>
@@ -534,24 +534,15 @@
                                             <segue destination="Jej-pZ-rxc" kind="show" id="W4d-Kb-qIE"/>
                                         </connections>
                                     </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Flq-dn-qHw">
-                                        <rect key="frame" x="622" y="0.0" width="100" height="100"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="Flq-dn-qHw" secondAttribute="height" multiplier="1:1" id="3bL-Ht-mb8"/>
-                                            <constraint firstAttribute="height" constant="100" id="9xz-m2-2Ub"/>
-                                        </constraints>
-                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="0ej-Hb-kaE" secondAttribute="trailing" constant="20" id="7Mg-hn-uvu"/>
                                     <constraint firstAttribute="bottom" secondItem="0ej-Hb-kaE" secondAttribute="bottom" constant="20" id="BFK-Qk-ouh"/>
-                                    <constraint firstItem="Flq-dn-qHw" firstAttribute="centerY" secondItem="g0x-cR-OxH" secondAttribute="centerY" id="IxD-Ok-L2t"/>
                                     <constraint firstItem="qbV-Ky-hNm" firstAttribute="centerX" secondItem="M8v-Zb-yCz" secondAttribute="centerX" id="Jcp-O7-vHq"/>
                                     <constraint firstItem="g0x-cR-OxH" firstAttribute="top" secondItem="M8v-Zb-yCz" secondAttribute="top" constant="20" id="aZW-96-ftp"/>
                                     <constraint firstItem="HWn-Wv-mQr" firstAttribute="leading" secondItem="M8v-Zb-yCz" secondAttribute="leading" constant="20" id="gAJ-n1-ZNf"/>
                                     <constraint firstItem="qbV-Ky-hNm" firstAttribute="centerY" secondItem="M8v-Zb-yCz" secondAttribute="centerY" id="owE-pN-u0o"/>
-                                    <constraint firstItem="Flq-dn-qHw" firstAttribute="centerX" secondItem="0ej-Hb-kaE" secondAttribute="centerX" id="qVU-YZ-DZt"/>
                                     <constraint firstAttribute="bottom" secondItem="HWn-Wv-mQr" secondAttribute="bottom" constant="20" id="reb-Vj-WGO"/>
                                     <constraint firstItem="g0x-cR-OxH" firstAttribute="leading" secondItem="M8v-Zb-yCz" secondAttribute="leading" constant="20" id="uLR-Qe-azv"/>
                                 </constraints>
@@ -929,32 +920,13 @@ At SlotSagaSlotSpins, our mission is to provide fun, unique gameplay that keeps 
                                             <segue destination="iSw-II-6wl" kind="show" id="ena-pR-huH"/>
                                         </connections>
                                     </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="cWJ-ZF-h1l">
-                                        <rect key="frame" x="498" y="14" width="100" height="100"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="cWJ-ZF-h1l" secondAttribute="height" multiplier="1:1" id="7cI-ct-P3j"/>
-                                            <constraint firstAttribute="height" constant="100" id="ejR-pa-1xI"/>
-                                        </constraints>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="SFC-5J-GOQ">
-                                        <rect key="frame" x="70" y="153" width="100" height="100"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="100" id="hMg-dW-ERm"/>
-                                            <constraint firstAttribute="width" secondItem="SFC-5J-GOQ" secondAttribute="height" multiplier="1:1" id="syX-5W-9nv"/>
-                                            <constraint firstAttribute="width" secondItem="SFC-5J-GOQ" secondAttribute="height" multiplier="1:1" id="y1C-9K-z4n"/>
-                                        </constraints>
-                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="cWJ-ZF-h1l" firstAttribute="centerY" secondItem="ZyX-Q9-lWE" secondAttribute="centerY" constant="14" id="BEA-9Z-J3I"/>
-                                    <constraint firstItem="SFC-5J-GOQ" firstAttribute="centerY" secondItem="cSj-ps-fXQ" secondAttribute="centerY" constant="-14" id="NAD-VF-aS6"/>
                                     <constraint firstItem="qMZ-TT-6It" firstAttribute="centerY" secondItem="iW5-Vl-o6R" secondAttribute="centerY" id="Prp-9H-zJV"/>
-                                    <constraint firstItem="SFC-5J-GOQ" firstAttribute="centerX" secondItem="ZyX-Q9-lWE" secondAttribute="centerX" id="QOn-a4-S7Y"/>
                                     <constraint firstItem="cSj-ps-fXQ" firstAttribute="leading" secondItem="qMZ-TT-6It" secondAttribute="trailing" constant="14" id="USI-qR-Oqb"/>
                                     <constraint firstItem="ZyX-Q9-lWE" firstAttribute="leading" secondItem="iW5-Vl-o6R" secondAttribute="leading" constant="20" id="a7i-PC-vnx"/>
                                     <constraint firstAttribute="bottom" secondItem="cSj-ps-fXQ" secondAttribute="bottom" constant="20" id="ad5-xV-HNW"/>
-                                    <constraint firstItem="cWJ-ZF-h1l" firstAttribute="centerX" secondItem="cSj-ps-fXQ" secondAttribute="centerX" id="iWT-j4-utb"/>
                                     <constraint firstItem="qMZ-TT-6It" firstAttribute="leading" secondItem="ZyX-Q9-lWE" secondAttribute="trailing" constant="14" id="itW-XS-tMc"/>
                                     <constraint firstItem="ZyX-Q9-lWE" firstAttribute="top" secondItem="iW5-Vl-o6R" secondAttribute="top" constant="20" id="r7J-f7-2k8"/>
                                 </constraints>
@@ -4847,12 +4819,12 @@ Cg
         <segue reference="DFs-nb-n1D"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="bg" width="1456" height="832"/>
+        <image name="bg" width="1456" height="816"/>
         <image name="btnBack" width="198" height="198"/>
         <image name="btnframe" width="1947" height="369"/>
         <image name="gearshape.fill" catalog="system" width="128" height="123"/>
-        <image name="logo" width="562" height="488"/>
-        <image name="slot-machine" width="626" height="626"/>
+        <image name="logo" width="1024" height="1024"/>
+        <image name="slot-machine" width="1024" height="1040"/>
         <image name="title" width="12073" height="1806"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

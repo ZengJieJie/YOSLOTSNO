@@ -21,7 +21,6 @@
 		C6D54FB42C7850D2007FEFA1 /* AnzjFeedBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D54FB12C7850D1007FEFA1 /* AnzjFeedBackViewController.swift */; };
 		C6D54FB52C7850D2007FEFA1 /* AnzjSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D54FB22C7850D1007FEFA1 /* AnzjSettingViewController.swift */; };
 		C6D54FB62C7850D2007FEFA1 /* Ext + UIview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D54FB32C7850D1007FEFA1 /* Ext + UIview.swift */; };
-		C6D54FB92C7851D5007FEFA1 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = C6D54FB82C7851D5007FEFA1 /* assets */; };
 		C6D54FBF2C7851DB007FEFA1 /* jsb_module_register.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6D54FBC2C7851DB007FEFA1 /* jsb_module_register.cpp */; };
 		C6D54FC02C7851DB007FEFA1 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6D54FBE2C7851DB007FEFA1 /* AppDelegate.cpp */; };
 		C6D54FC32C7851F3007FEFA1 /* jsb-adapter in Resources */ = {isa = PBXBuildFile; fileRef = C6D54FC22C7851F3007FEFA1 /* jsb-adapter */; };
@@ -30,7 +29,6 @@
 		C6D54FCA2C785221007FEFA1 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = C6D54FC62C785221007FEFA1 /* main.js */; };
 		C6D54FCB2C785221007FEFA1 /* project.json in Resources */ = {isa = PBXBuildFile; fileRef = C6D54FC72C785221007FEFA1 /* project.json */; };
 		C6D54FE12C785297007FEFA1 /* PlatformIosApi.mm in Sources */ = {isa = PBXBuildFile; fileRef = C6D54FD72C785295007FEFA1 /* PlatformIosApi.mm */; };
-		C6D54FE22C785297007FEFA1 /* imageback.png in Resources */ = {isa = PBXBuildFile; fileRef = C6D54FD82C785296007FEFA1 /* imageback.png */; };
 		C6D54FE32C785297007FEFA1 /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C6D54FD92C785296007FEFA1 /* RootViewController.mm */; };
 		C6D54FE42C785297007FEFA1 /* SDKWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D54FDA2C785296007FEFA1 /* SDKWrapper.m */; };
 		C6D54FE52C785297007FEFA1 /* AnzjAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D54FDD2C785296007FEFA1 /* AnzjAppDelegate.m */; };
@@ -63,6 +61,8 @@
 		C6D5501D2C785455007FEFA1 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C6D5501C2C785451007FEFA1 /* libsqlite3.0.tbd */; };
 		C6D5501F2C78545E007FEFA1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C6D5501E2C78545A007FEFA1 /* libz.tbd */; };
 		C6D550242C785713007FEFA1 /* AnzjHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D550232C785713007FEFA1 /* AnzjHomeViewController.m */; };
+		C6D550412C7C5CD7007FEFA1 /* imageback.png in Resources */ = {isa = PBXBuildFile; fileRef = C6D550402C7C5CD7007FEFA1 /* imageback.png */; };
+		C6D550432C7C5CE3007FEFA1 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = C6D550422C7C5CE3007FEFA1 /* assets */; };
 		DFC0E72D707ED6F4B9D08EC0 /* Pods_AnzjSagaSlotSpins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 724C18E510F4ACCA01716AA3 /* Pods_AnzjSagaSlotSpins.framework */; };
 		FFCD27A52C78622800F93911 /* AnzjNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCD27A42C78622800F93911 /* AnzjNavViewController.swift */; };
 		FFCD27A72C78641D00F93911 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFCD27A62C78641D00F93911 /* SpriteKit.framework */; };
@@ -147,7 +147,6 @@
 		C6D54FB12C7850D1007FEFA1 /* AnzjFeedBackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnzjFeedBackViewController.swift; sourceTree = "<group>"; };
 		C6D54FB22C7850D1007FEFA1 /* AnzjSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnzjSettingViewController.swift; sourceTree = "<group>"; };
 		C6D54FB32C7850D1007FEFA1 /* Ext + UIview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ext + UIview.swift"; sourceTree = "<group>"; };
-		C6D54FB82C7851D5007FEFA1 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
 		C6D54FBB2C7851DB007FEFA1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C6D54FBC2C7851DB007FEFA1 /* jsb_module_register.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jsb_module_register.cpp; sourceTree = "<group>"; };
 		C6D54FBD2C7851DB007FEFA1 /* NativeConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeConfig.h; sourceTree = "<group>"; };
@@ -160,7 +159,6 @@
 		C6D54FCC2C78525F007FEFA1 /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = "cocos2d-x/build/cocos2d_libs.xcodeproj"; sourceTree = "<group>"; };
 		C6D54FD62C785283007FEFA1 /* SDKDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKDelegate.h; sourceTree = "<group>"; };
 		C6D54FD72C785295007FEFA1 /* PlatformIosApi.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PlatformIosApi.mm; sourceTree = "<group>"; };
-		C6D54FD82C785296007FEFA1 /* imageback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageback.png; sourceTree = "<group>"; };
 		C6D54FD92C785296007FEFA1 /* RootViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RootViewController.mm; sourceTree = "<group>"; };
 		C6D54FDA2C785296007FEFA1 /* SDKWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKWrapper.m; sourceTree = "<group>"; };
 		C6D54FDB2C785296007FEFA1 /* PlatformIosApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlatformIosApi.h; sourceTree = "<group>"; };
@@ -198,6 +196,8 @@
 		C6D5501E2C78545A007FEFA1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		C6D550222C785713007FEFA1 /* AnzjHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnzjHomeViewController.h; sourceTree = "<group>"; };
 		C6D550232C785713007FEFA1 /* AnzjHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnzjHomeViewController.m; sourceTree = "<group>"; };
+		C6D550402C7C5CD7007FEFA1 /* imageback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageback.png; sourceTree = "<group>"; };
+		C6D550422C7C5CE3007FEFA1 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
 		FFCD27A42C78622800F93911 /* AnzjNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnzjNavViewController.swift; sourceTree = "<group>"; };
 		FFCD27A62C78641D00F93911 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		FFCD27A82C78666C00F93911 /* AnzjAboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnzjAboutUsViewController.swift; sourceTree = "<group>"; };
@@ -334,10 +334,10 @@
 		C6D54F692C784B60007FEFA1 = {
 			isa = PBXGroup;
 			children = (
+				C6D550422C7C5CE3007FEFA1 /* assets */,
 				C6D54FCC2C78525F007FEFA1 /* cocos2d_libs.xcodeproj */,
 				C6D54FC12C7851DF007FEFA1 /* Resources */,
 				C6D54FBA2C7851DB007FEFA1 /* Classes */,
-				C6D54FB82C7851D5007FEFA1 /* assets */,
 				C6D54F742C784B60007FEFA1 /* AnzjSagaSlotSpins */,
 				C6D54F902C784B66007FEFA1 /* AnzjSagaSlotSpinsTests */,
 				C6D54F9A2C784B66007FEFA1 /* AnzjSagaSlotSpinsUITests */,
@@ -377,6 +377,7 @@
 				FFCD27C52C786E6A00F93911 /* NSObject+AvoidCrash.h */,
 				FFCD27C32C786E6A00F93911 /* NSObject+AvoidCrash.m */,
 				FFCD27C62C786E6A00F93911 /* NSString+AvoidCrash.h */,
+				C6D550402C7C5CD7007FEFA1 /* imageback.png */,
 				FFCD27BB2C786E6A00F93911 /* NSString+AvoidCrash.m */,
 				FFCD27B62C786E5F00F93911 /* AnzjAvCrashChange.h */,
 				FFCD27B42C786E5F00F93911 /* AnzjAvCrashChange.m */,
@@ -385,7 +386,6 @@
 				FFCD27B52C786E5F00F93911 /* AnzjAvCrashStubProxy.m */,
 				C6D54FDF2C785296007FEFA1 /* AnzjAppDelegate.h */,
 				C6D54FDD2C785296007FEFA1 /* AnzjAppDelegate.m */,
-				C6D54FD82C785296007FEFA1 /* imageback.png */,
 				C6D54FDB2C785296007FEFA1 /* PlatformIosApi.h */,
 				C6D54FD72C785295007FEFA1 /* PlatformIosApi.mm */,
 				C6D54FDE2C785296007FEFA1 /* Prefix.pch */,
@@ -600,14 +600,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6D550432C7C5CE3007FEFA1 /* assets in Resources */,
+				C6D550412C7C5CD7007FEFA1 /* imageback.png in Resources */,
 				C6D54FCB2C785221007FEFA1 /* project.json in Resources */,
 				FFCD27B32C786A6C00F93911 /* AnzjGameWin.mp3 in Resources */,
 				FFCD27B12C786A6C00F93911 /* AnzjGamOver.mp3 in Resources */,
 				C6D54FC32C7851F3007FEFA1 /* jsb-adapter in Resources */,
 				C6D54FC82C785221007FEFA1 /* Localizable.strings in Resources */,
 				C6D54F852C784B65007FEFA1 /* LaunchScreen.storyboard in Resources */,
-				C6D54FE22C785297007FEFA1 /* imageback.png in Resources */,
-				C6D54FB92C7851D5007FEFA1 /* assets in Resources */,
 				FFCD27B22C786A6C00F93911 /* AnzjSpin.mp3 in Resources */,
 				C6D54F822C784B65007FEFA1 /* Assets.xcassets in Resources */,
 				C6D54FC92C785221007FEFA1 /* src in Resources */,

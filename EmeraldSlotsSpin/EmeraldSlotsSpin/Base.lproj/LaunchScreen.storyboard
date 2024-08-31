@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_bg" translatesAutoresizingMaskIntoConstraints="NO" id="f6S-6N-y5b">
+                                <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4471700_2361365-03" translatesAutoresizingMaskIntoConstraints="NO" id="sEo-hx-qcs">
+                                <rect key="frame" x="301" y="96.666666666666686" width="250" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="IXt-Ay-ufY"/>
+                                    <constraint firstAttribute="height" constant="200" id="c3y-NL-o5l"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="f6S-6N-y5b" secondAttribute="bottom" id="1E5-O9-O4K"/>
+                            <constraint firstItem="f6S-6N-y5b" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="IEY-WK-FA4"/>
+                            <constraint firstAttribute="trailing" secondItem="f6S-6N-y5b" secondAttribute="trailing" id="O1e-CU-W36"/>
+                            <constraint firstItem="sEo-hx-qcs" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="OAr-IF-uq5"/>
+                            <constraint firstItem="f6S-6N-y5b" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="ZTM-I5-Ikq"/>
+                            <constraint firstItem="sEo-hx-qcs" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="f6S-yH-eBh"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="4471700_2361365-03" width="1920" height="1080"/>
+        <image name="ic_bg" width="3000" height="2000"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

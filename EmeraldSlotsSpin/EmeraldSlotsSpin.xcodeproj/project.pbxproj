@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03919636E01009A3FB766901 /* Pods_EmeraldSlotsSpin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C1F30613DA377F1694173F7 /* Pods_EmeraldSlotsSpin.framework */; };
+		C662B3CA2C8301BF001C5DF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B3C92C8301BF001C5DF5 /* AppDelegate.m */; };
+		C662B3D02C8301BF001C5DF5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B3CF2C8301BF001C5DF5 /* ViewController.m */; };
+		C662B3D32C8301BF001C5DF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C662B3D12C8301BF001C5DF5 /* Main.storyboard */; };
+		C662B3D52C8301C3001C5DF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C662B3D42C8301C3001C5DF5 /* Assets.xcassets */; };
+		C662B3D82C8301C3001C5DF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C662B3D62C8301C3001C5DF5 /* LaunchScreen.storyboard */; };
+		C662B3DB2C8301C3001C5DF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B3DA2C8301C3001C5DF5 /* main.m */; };
+		C662B3E52C8301C3001C5DF5 /* EmeraldSlotsSpinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B3E42C8301C3001C5DF5 /* EmeraldSlotsSpinTests.m */; };
+		C662B3EF2C8301C3001C5DF5 /* EmeraldSlotsSpinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B3EE2C8301C3001C5DF5 /* EmeraldSlotsSpinUITests.m */; };
+		C662B3F12C8301C3001C5DF5 /* EmeraldSlotsSpinUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B3F02C8301C3001C5DF5 /* EmeraldSlotsSpinUITestsLaunchTests.m */; };
+		C662B3FF2C8302A9001C5DF5 /* Emerald_Slots_Spin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C662B3FD2C8302A9001C5DF5 /* Emerald_Slots_Spin.xcdatamodeld */; };
+		C662B4022C8302BE001C5DF5 /* Extension .swift in Sources */ = {isa = PBXBuildFile; fileRef = C662B4012C8302BE001C5DF5 /* Extension .swift */; };
+		C662B4042C8302F5001C5DF5 /* EmeraldSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662B4032C8302F5001C5DF5 /* EmeraldSetViewController.swift */; };
+		C662B4062C830303001C5DF5 /* EmeraldABOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662B4052C830303001C5DF5 /* EmeraldABOViewController.swift */; };
+		C662B4082C83030C001C5DF5 /* EmeraldFEBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662B4072C83030C001C5DF5 /* EmeraldFEBViewController.swift */; };
+		C662B40A2C83031A001C5DF5 /* EmeraldPriViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662B4092C83031A001C5DF5 /* EmeraldPriViewController.swift */; };
+		C662B40C2C830328001C5DF5 /* EmeraldSolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662B40B2C830328001C5DF5 /* EmeraldSolViewController.swift */; };
+		C662B40E2C830335001C5DF5 /* EmeraldGamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662B40D2C830335001C5DF5 /* EmeraldGamViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C662B3E12C8301C3001C5DF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C662B3BD2C8301BF001C5DF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C662B3C42C8301BF001C5DF5;
+			remoteInfo = EmeraldSlotsSpin;
+		};
+		C662B3EB2C8301C3001C5DF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C662B3BD2C8301BF001C5DF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C662B3C42C8301BF001C5DF5;
+			remoteInfo = EmeraldSlotsSpin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C1F30613DA377F1694173F7 /* Pods_EmeraldSlotsSpin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmeraldSlotsSpin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A009289A9FC23C9CFB6150E2 /* Pods-EmeraldSlotsSpin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmeraldSlotsSpin.release.xcconfig"; path = "Target Support Files/Pods-EmeraldSlotsSpin/Pods-EmeraldSlotsSpin.release.xcconfig"; sourceTree = "<group>"; };
+		C662B3C52C8301BF001C5DF5 /* EmeraldSlotsSpin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmeraldSlotsSpin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C662B3C82C8301BF001C5DF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C662B3C92C8301BF001C5DF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C662B3CE2C8301BF001C5DF5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C662B3CF2C8301BF001C5DF5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C662B3D22C8301BF001C5DF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C662B3D42C8301C3001C5DF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C662B3D72C8301C3001C5DF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C662B3D92C8301C3001C5DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C662B3DA2C8301C3001C5DF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C662B3E02C8301C3001C5DF5 /* EmeraldSlotsSpinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmeraldSlotsSpinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C662B3E42C8301C3001C5DF5 /* EmeraldSlotsSpinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmeraldSlotsSpinTests.m; sourceTree = "<group>"; };
+		C662B3EA2C8301C3001C5DF5 /* EmeraldSlotsSpinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmeraldSlotsSpinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C662B3EE2C8301C3001C5DF5 /* EmeraldSlotsSpinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmeraldSlotsSpinUITests.m; sourceTree = "<group>"; };
+		C662B3F02C8301C3001C5DF5 /* EmeraldSlotsSpinUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmeraldSlotsSpinUITestsLaunchTests.m; sourceTree = "<group>"; };
+		C662B3FE2C8302A9001C5DF5 /* Emerald_Slots_Spin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Emerald_Slots_Spin.xcdatamodel; sourceTree = "<group>"; };
+		C662B4002C8302BD001C5DF5 /* EmeraldSlotsSpin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EmeraldSlotsSpin-Bridging-Header.h"; sourceTree = "<group>"; };
+		C662B4012C8302BE001C5DF5 /* Extension .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension .swift"; sourceTree = "<group>"; };
+		C662B4032C8302F5001C5DF5 /* EmeraldSetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmeraldSetViewController.swift; sourceTree = "<group>"; };
+		C662B4052C830303001C5DF5 /* EmeraldABOViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmeraldABOViewController.swift; sourceTree = "<group>"; };
+		C662B4072C83030C001C5DF5 /* EmeraldFEBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmeraldFEBViewController.swift; sourceTree = "<group>"; };
+		C662B4092C83031A001C5DF5 /* EmeraldPriViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmeraldPriViewController.swift; sourceTree = "<group>"; };
+		C662B40B2C830328001C5DF5 /* EmeraldSolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmeraldSolViewController.swift; sourceTree = "<group>"; };
+		C662B40D2C830335001C5DF5 /* EmeraldGamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmeraldGamViewController.swift; sourceTree = "<group>"; };
+		C6F8FFBD0F43EB27A1A543BB /* Pods-EmeraldSlotsSpin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmeraldSlotsSpin.debug.xcconfig"; path = "Target Support Files/Pods-EmeraldSlotsSpin/Pods-EmeraldSlotsSpin.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C662B3C22C8301BF001C5DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03919636E01009A3FB766901 /* Pods_EmeraldSlotsSpin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C662B3DD2C8301C3001C5DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C662B3E72C8301C3001C5DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09DEFC2F618CF5F8A52D36DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6F8FFBD0F43EB27A1A543BB /* Pods-EmeraldSlotsSpin.debug.xcconfig */,
+				A009289A9FC23C9CFB6150E2 /* Pods-EmeraldSlotsSpin.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8507B05607DBC75852A6F5A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C1F30613DA377F1694173F7 /* Pods_EmeraldSlotsSpin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C662B3BC2C8301BF001C5DF5 = {
+			isa = PBXGroup;
+			children = (
+				C662B3C72C8301BF001C5DF5 /* EmeraldSlotsSpin */,
+				C662B3E32C8301C3001C5DF5 /* EmeraldSlotsSpinTests */,
+				C662B3ED2C8301C3001C5DF5 /* EmeraldSlotsSpinUITests */,
+				C662B3C62C8301BF001C5DF5 /* Products */,
+				09DEFC2F618CF5F8A52D36DA /* Pods */,
+				8507B05607DBC75852A6F5A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C662B3C62C8301BF001C5DF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C662B3C52C8301BF001C5DF5 /* EmeraldSlotsSpin.app */,
+				C662B3E02C8301C3001C5DF5 /* EmeraldSlotsSpinTests.xctest */,
+				C662B3EA2C8301C3001C5DF5 /* EmeraldSlotsSpinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C662B3C72C8301BF001C5DF5 /* EmeraldSlotsSpin */ = {
+			isa = PBXGroup;
+			children = (
+				C662B4012C8302BE001C5DF5 /* Extension .swift */,
+				C662B3FD2C8302A9001C5DF5 /* Emerald_Slots_Spin.xcdatamodeld */,
+				C662B3C82C8301BF001C5DF5 /* AppDelegate.h */,
+				C662B3C92C8301BF001C5DF5 /* AppDelegate.m */,
+				C662B3CE2C8301BF001C5DF5 /* ViewController.h */,
+				C662B3CF2C8301BF001C5DF5 /* ViewController.m */,
+				C662B3D12C8301BF001C5DF5 /* Main.storyboard */,
+				C662B3D42C8301C3001C5DF5 /* Assets.xcassets */,
+				C662B3D62C8301C3001C5DF5 /* LaunchScreen.storyboard */,
+				C662B3D92C8301C3001C5DF5 /* Info.plist */,
+				C662B3DA2C8301C3001C5DF5 /* main.m */,
+				C662B4002C8302BD001C5DF5 /* EmeraldSlotsSpin-Bridging-Header.h */,
+				C662B4032C8302F5001C5DF5 /* EmeraldSetViewController.swift */,
+				C662B4052C830303001C5DF5 /* EmeraldABOViewController.swift */,
+				C662B4072C83030C001C5DF5 /* EmeraldFEBViewController.swift */,
+				C662B4092C83031A001C5DF5 /* EmeraldPriViewController.swift */,
+				C662B40B2C830328001C5DF5 /* EmeraldSolViewController.swift */,
+				C662B40D2C830335001C5DF5 /* EmeraldGamViewController.swift */,
+			);
+			path = EmeraldSlotsSpin;
+			sourceTree = "<group>";
+		};
+		C662B3E32C8301C3001C5DF5 /* EmeraldSlotsSpinTests */ = {
+			isa = PBXGroup;
+			children = (
+				C662B3E42C8301C3001C5DF5 /* EmeraldSlotsSpinTests.m */,
+			);
+			path = EmeraldSlotsSpinTests;
+			sourceTree = "<group>";
+		};
+		C662B3ED2C8301C3001C5DF5 /* EmeraldSlotsSpinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C662B3EE2C8301C3001C5DF5 /* EmeraldSlotsSpinUITests.m */,
+				C662B3F02C8301C3001C5DF5 /* EmeraldSlotsSpinUITestsLaunchTests.m */,
+			);
+			path = EmeraldSlotsSpinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C662B3C42C8301BF001C5DF5 /* EmeraldSlotsSpin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C662B3F42C8301C3001C5DF5 /* Build configuration list for PBXNativeTarget "EmeraldSlotsSpin" */;
+			buildPhases = (
+				E316252DB52A5581C8F44DB5 /* [CP] Check Pods Manifest.lock */,
+				C662B3C12C8301BF001C5DF5 /* Sources */,
+				C662B3C22C8301BF001C5DF5 /* Frameworks */,
+				C662B3C32C8301BF001C5DF5 /* Resources */,
+				07C3E84A96340F4221F1D154 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmeraldSlotsSpin;
+			productName = EmeraldSlotsSpin;
+			productReference = C662B3C52C8301BF001C5DF5 /* EmeraldSlotsSpin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C662B3DF2C8301C3001C5DF5 /* EmeraldSlotsSpinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C662B3F72C8301C3001C5DF5 /* Build configuration list for PBXNativeTarget "EmeraldSlotsSpinTests" */;
+			buildPhases = (
+				C662B3DC2C8301C3001C5DF5 /* Sources */,
+				C662B3DD2C8301C3001C5DF5 /* Frameworks */,
+				C662B3DE2C8301C3001C5DF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C662B3E22C8301C3001C5DF5 /* PBXTargetDependency */,
+			);
+			name = EmeraldSlotsSpinTests;
+			productName = EmeraldSlotsSpinTests;
+			productReference = C662B3E02C8301C3001C5DF5 /* EmeraldSlotsSpinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C662B3E92C8301C3001C5DF5 /* EmeraldSlotsSpinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C662B3FA2C8301C3001C5DF5 /* Build configuration list for PBXNativeTarget "EmeraldSlotsSpinUITests" */;
+			buildPhases = (
+				C662B3E62C8301C3001C5DF5 /* Sources */,
+				C662B3E72C8301C3001C5DF5 /* Frameworks */,
+				C662B3E82C8301C3001C5DF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C662B3EC2C8301C3001C5DF5 /* PBXTargetDependency */,
+			);
+			name = EmeraldSlotsSpinUITests;
+			productName = EmeraldSlotsSpinUITests;
+			productReference = C662B3EA2C8301C3001C5DF5 /* EmeraldSlotsSpinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C662B3BD2C8301BF001C5DF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C662B3C42C8301BF001C5DF5 = {
+						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
+					};
+					C662B3DF2C8301C3001C5DF5 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C662B3C42C8301BF001C5DF5;
+					};
+					C662B3E92C8301C3001C5DF5 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C662B3C42C8301BF001C5DF5;
+					};
+				};
+			};
+			buildConfigurationList = C662B3C02C8301BF001C5DF5 /* Build configuration list for PBXProject "EmeraldSlotsSpin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C662B3BC2C8301BF001C5DF5;
+			productRefGroup = C662B3C62C8301BF001C5DF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C662B3C42C8301BF001C5DF5 /* EmeraldSlotsSpin */,
+				C662B3DF2C8301C3001C5DF5 /* EmeraldSlotsSpinTests */,
+				C662B3E92C8301C3001C5DF5 /* EmeraldSlotsSpinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C662B3C32C8301BF001C5DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C662B3D82C8301C3001C5DF5 /* LaunchScreen.storyboard in Resources */,
+				C662B3D52C8301C3001C5DF5 /* Assets.xcassets in Resources */,
+				C662B3D32C8301BF001C5DF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C662B3DE2C8301C3001C5DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C662B3E82C8301C3001C5DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07C3E84A96340F4221F1D154 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EmeraldSlotsSpin/Pods-EmeraldSlotsSpin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EmeraldSlotsSpin/Pods-EmeraldSlotsSpin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EmeraldSlotsSpin/Pods-EmeraldSlotsSpin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E316252DB52A5581C8F44DB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EmeraldSlotsSpin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C662B3C12C8301BF001C5DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C662B3D02C8301BF001C5DF5 /* ViewController.m in Sources */,
+				C662B3CA2C8301BF001C5DF5 /* AppDelegate.m in Sources */,
+				C662B40C2C830328001C5DF5 /* EmeraldSolViewController.swift in Sources */,
+				C662B4022C8302BE001C5DF5 /* Extension .swift in Sources */,
+				C662B40A2C83031A001C5DF5 /* EmeraldPriViewController.swift in Sources */,
+				C662B3DB2C8301C3001C5DF5 /* main.m in Sources */,
+				C662B4042C8302F5001C5DF5 /* EmeraldSetViewController.swift in Sources */,
+				C662B40E2C830335001C5DF5 /* EmeraldGamViewController.swift in Sources */,
+				C662B3FF2C8302A9001C5DF5 /* Emerald_Slots_Spin.xcdatamodeld in Sources */,
+				C662B4062C830303001C5DF5 /* EmeraldABOViewController.swift in Sources */,
+				C662B4082C83030C001C5DF5 /* EmeraldFEBViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C662B3DC2C8301C3001C5DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C662B3E52C8301C3001C5DF5 /* EmeraldSlotsSpinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C662B3E62C8301C3001C5DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C662B3EF2C8301C3001C5DF5 /* EmeraldSlotsSpinUITests.m in Sources */,
+				C662B3F12C8301C3001C5DF5 /* EmeraldSlotsSpinUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C662B3E22C8301C3001C5DF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C662B3C42C8301BF001C5DF5 /* EmeraldSlotsSpin */;
+			targetProxy = C662B3E12C8301C3001C5DF5 /* PBXContainerItemProxy */;
+		};
+		C662B3EC2C8301C3001C5DF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C662B3C42C8301BF001C5DF5 /* EmeraldSlotsSpin */;
+			targetProxy = C662B3EB2C8301C3001C5DF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C662B3D12C8301BF001C5DF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C662B3D22C8301BF001C5DF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C662B3D62C8301C3001C5DF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C662B3D72C8301C3001C5DF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C662B3F22C8301C3001C5DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C662B3F32C8301C3001C5DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C662B3F52C8301C3001C5DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6F8FFBD0F43EB27A1A543BB /* Pods-EmeraldSlotsSpin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EmeraldSlotsSpin/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EmeraldSlotsSpin;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.niZESS.EmeraldSlotsSpin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "EmeraldSlotsSpin/EmeraldSlotsSpin-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C662B3F62C8301C3001C5DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A009289A9FC23C9CFB6150E2 /* Pods-EmeraldSlotsSpin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EmeraldSlotsSpin/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EmeraldSlotsSpin;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.niZESS.EmeraldSlotsSpin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "EmeraldSlotsSpin/EmeraldSlotsSpin-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C662B3F82C8301C3001C5DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SlotSagaSlotSpins.EmeraldSlotsSpinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmeraldSlotsSpin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EmeraldSlotsSpin";
+			};
+			name = Debug;
+		};
+		C662B3F92C8301C3001C5DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SlotSagaSlotSpins.EmeraldSlotsSpinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmeraldSlotsSpin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EmeraldSlotsSpin";
+			};
+			name = Release;
+		};
+		C662B3FB2C8301C3001C5DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SlotSagaSlotSpins.EmeraldSlotsSpinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EmeraldSlotsSpin;
+			};
+			name = Debug;
+		};
+		C662B3FC2C8301C3001C5DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SlotSagaSlotSpins.EmeraldSlotsSpinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EmeraldSlotsSpin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C662B3C02C8301BF001C5DF5 /* Build configuration list for PBXProject "EmeraldSlotsSpin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C662B3F22C8301C3001C5DF5 /* Debug */,
+				C662B3F32C8301C3001C5DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C662B3F42C8301C3001C5DF5 /* Build configuration list for PBXNativeTarget "EmeraldSlotsSpin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C662B3F52C8301C3001C5DF5 /* Debug */,
+				C662B3F62C8301C3001C5DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C662B3F72C8301C3001C5DF5 /* Build configuration list for PBXNativeTarget "EmeraldSlotsSpinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C662B3F82C8301C3001C5DF5 /* Debug */,
+				C662B3F92C8301C3001C5DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C662B3FA2C8301C3001C5DF5 /* Build configuration list for PBXNativeTarget "EmeraldSlotsSpinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C662B3FB2C8301C3001C5DF5 /* Debug */,
+				C662B3FC2C8301C3001C5DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C662B3FD2C8302A9001C5DF5 /* Emerald_Slots_Spin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C662B3FE2C8302A9001C5DF5 /* Emerald_Slots_Spin.xcdatamodel */,
+			);
+			currentVersion = C662B3FE2C8302A9001C5DF5 /* Emerald_Slots_Spin.xcdatamodel */;
+			path = Emerald_Slots_Spin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C662B3BD2C8301BF001C5DF5 /* Project object */;
+}

@@ -37,7 +37,7 @@ class EmeraldSolViewController: UIViewController {
     }
     
     @IBAction func btnBack(_ sender: Any) {
-        navigationController?.popViewController(animated: true)
+        self.dismiss(animated: true)
     }
     
     @IBAction func spinButtonTapped(_ sender: UIButton) {

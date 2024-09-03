@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		03919636E01009A3FB766901 /* Pods_EmeraldSlotsSpin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C1F30613DA377F1694173F7 /* Pods_EmeraldSlotsSpin.framework */; };
-		C662B3CA2C8301BF001C5DF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B3C92C8301BF001C5DF5 /* AppDelegate.m */; };
-		C662B3D02C8301BF001C5DF5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B3CF2C8301BF001C5DF5 /* ViewController.m */; };
+		C662B3CA2C8301BF001C5DF5 /* EmeraldAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B3C92C8301BF001C5DF5 /* EmeraldAppDelegate.m */; };
+		C662B3D02C8301BF001C5DF5 /* EmeraldLetsplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B3CF2C8301BF001C5DF5 /* EmeraldLetsplayViewController.m */; };
 		C662B3D32C8301BF001C5DF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C662B3D12C8301BF001C5DF5 /* Main.storyboard */; };
 		C662B3D52C8301C3001C5DF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C662B3D42C8301C3001C5DF5 /* Assets.xcassets */; };
 		C662B3D82C8301C3001C5DF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C662B3D62C8301C3001C5DF5 /* LaunchScreen.storyboard */; };
@@ -25,6 +25,58 @@
 		C662B40A2C83031A001C5DF5 /* EmeraldPriViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662B4092C83031A001C5DF5 /* EmeraldPriViewController.swift */; };
 		C662B40C2C830328001C5DF5 /* EmeraldSolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662B40B2C830328001C5DF5 /* EmeraldSolViewController.swift */; };
 		C662B40E2C830335001C5DF5 /* EmeraldGamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662B40D2C830335001C5DF5 /* EmeraldGamViewController.swift */; };
+		C662B4182C86DCBF001C5DF5 /* jsb_module_register.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C662B4152C86DCBF001C5DF5 /* jsb_module_register.cpp */; };
+		C662B4192C86DCBF001C5DF5 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C662B4172C86DCBF001C5DF5 /* AppDelegate.cpp */; };
+		C662B4202C86DCD6001C5DF5 /* src in Resources */ = {isa = PBXBuildFile; fileRef = C662B41B2C86DCD6001C5DF5 /* src */; };
+		C662B4212C86DCD6001C5DF5 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = C662B41C2C86DCD6001C5DF5 /* main.js */; };
+		C662B4222C86DCD6001C5DF5 /* project.json in Resources */ = {isa = PBXBuildFile; fileRef = C662B41D2C86DCD6001C5DF5 /* project.json */; };
+		C662B4232C86DCD6001C5DF5 /* jsb-adapter in Resources */ = {isa = PBXBuildFile; fileRef = C662B41E2C86DCD6001C5DF5 /* jsb-adapter */; };
+		C662B4242C86DCD6001C5DF5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C662B41F2C86DCD6001C5DF5 /* Localizable.strings */; };
+		C662B4322C86DDD7001C5DF5 /* AdServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B4312C86DDD7001C5DF5 /* AdServices.framework */; };
+		C662B4342C86DDDB001C5DF5 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B4332C86DDDB001C5DF5 /* AdSupport.framework */; };
+		C662B4362C86DDDF001C5DF5 /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B4352C86DDDF001C5DF5 /* AppTrackingTransparency.framework */; };
+		C662B4382C86DDE6001C5DF5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B4372C86DDE6001C5DF5 /* AudioToolbox.framework */; };
+		C662B43A2C86DDEC001C5DF5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B4392C86DDEC001C5DF5 /* AVFoundation.framework */; };
+		C662B43C2C86DDF1001C5DF5 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B43B2C86DDF1001C5DF5 /* AVKit.framework */; };
+		C662B43E2C86DE02001C5DF5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B43D2C86DE02001C5DF5 /* CFNetwork.framework */; };
+		C662B4402C86DE09001C5DF5 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B43F2C86DE09001C5DF5 /* CoreFoundation.framework */; };
+		C662B4422C86DE0E001C5DF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B4412C86DE0E001C5DF5 /* CoreGraphics.framework */; };
+		C662B4442C86DE13001C5DF5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B4432C86DE13001C5DF5 /* CoreMedia.framework */; };
+		C662B4462C86DE18001C5DF5 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B4452C86DE18001C5DF5 /* CoreMotion.framework */; };
+		C662B4482C86DE1D001C5DF5 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B4472C86DE1D001C5DF5 /* CoreText.framework */; };
+		C662B44A2C86DE22001C5DF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B4492C86DE22001C5DF5 /* Foundation.framework */; };
+		C662B44C2C86DE27001C5DF5 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B44B2C86DE27001C5DF5 /* GameController.framework */; };
+		C662B44E2C86DE2B001C5DF5 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B44D2C86DE2B001C5DF5 /* JavaScriptCore.framework */; };
+		C662B4502C86DE30001C5DF5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B44F2C86DE30001C5DF5 /* MobileCoreServices.framework */; };
+		C662B4522C86DE36001C5DF5 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B4512C86DE36001C5DF5 /* OpenAL.framework */; };
+		C662B4542C86DE3A001C5DF5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B4532C86DE39001C5DF5 /* OpenGLES.framework */; };
+		C662B4562C86DE3F001C5DF5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B4552C86DE3F001C5DF5 /* QuartzCore.framework */; };
+		C662B4582C86DE48001C5DF5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B4572C86DE48001C5DF5 /* Security.framework */; };
+		C662B45A2C86DE4C001C5DF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B4592C86DE4C001C5DF5 /* UIKit.framework */; };
+		C662B45C2C86DE51001C5DF5 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B45B2C86DE51001C5DF5 /* WebKit.framework */; };
+		C662B45D2C86DE5A001C5DF5 /* libcocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B42D2C86DD0C001C5DF5 /* libcocos2d iOS.a */; };
+		C662B45F2C86DE66001C5DF5 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B45E2C86DE63001C5DF5 /* libiconv.tbd */; };
+		C662B4612C86DE72001C5DF5 /* libicucore.A.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B4602C86DE6F001C5DF5 /* libicucore.A.tbd */; };
+		C662B4632C86DE7C001C5DF5 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B4622C86DE79001C5DF5 /* libsqlite3.0.tbd */; };
+		C662B4652C86DE86001C5DF5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B4642C86DE84001C5DF5 /* libz.tbd */; };
+		C662B4712C86DEA6001C5DF5 /* SDKWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B4682C86DEA5001C5DF5 /* SDKWrapper.m */; };
+		C662B4732C86DEA6001C5DF5 /* PlatformIosApi.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B46A2C86DEA5001C5DF5 /* PlatformIosApi.m */; };
+		C662B4742C86DEA6001C5DF5 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B46B2C86DEA5001C5DF5 /* RootViewController.m */; };
+		C662B47C2C86E300001C5DF5 /* EmeraldSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662B47B2C86E300001C5DF5 /* EmeraldSelectViewController.swift */; };
+		C662B4982C86F19C001C5DF5 /* NSAttributedString+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B4812C86F19A001C5DF5 /* NSAttributedString+AvoidCrash.m */; };
+		C662B4992C86F19C001C5DF5 /* EmeraldCrashStubProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B4822C86F19A001C5DF5 /* EmeraldCrashStubProxy.m */; };
+		C662B49A2C86F19C001C5DF5 /* NSMutableString+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B4872C86F19B001C5DF5 /* NSMutableString+AvoidCrash.m */; };
+		C662B49B2C86F19C001C5DF5 /* NSString+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B4892C86F19B001C5DF5 /* NSString+AvoidCrash.m */; };
+		C662B49C2C86F19C001C5DF5 /* NSDictionary+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B48B2C86F19B001C5DF5 /* NSDictionary+AvoidCrash.m */; };
+		C662B49D2C86F19C001C5DF5 /* EmeraldCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B48C2C86F19B001C5DF5 /* EmeraldCrash.m */; };
+		C662B49E2C86F19C001C5DF5 /* NSMutableArray+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B48F2C86F19B001C5DF5 /* NSMutableArray+AvoidCrash.m */; };
+		C662B49F2C86F19C001C5DF5 /* NSMutableDictionary+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B4902C86F19B001C5DF5 /* NSMutableDictionary+AvoidCrash.m */; };
+		C662B4A02C86F19C001C5DF5 /* NSObject+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B4922C86F19B001C5DF5 /* NSObject+AvoidCrash.m */; };
+		C662B4A12C86F19C001C5DF5 /* NSArray+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B4932C86F19B001C5DF5 /* NSArray+AvoidCrash.m */; };
+		C662B4A22C86F19C001C5DF5 /* NSMutableAttributedString+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B4962C86F19B001C5DF5 /* NSMutableAttributedString+AvoidCrash.m */; };
+		C662B4A52C86F5BB001C5DF5 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = C662B4A42C86F5BA001C5DF5 /* assets */; };
+		C662B4B82C8702A7001C5DF5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C662B4BA2C8702A7001C5DF5 /* Localizable.strings */; };
+		FFB4E1872C86E7D5006A2B4C /* EmeraldGameNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB4E1862C86E7D5006A2B4C /* EmeraldGameNavViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,16 +94,37 @@
 			remoteGlobalIDString = C662B3C42C8301BF001C5DF5;
 			remoteInfo = EmeraldSlotsSpin;
 		};
+		C662B42A2C86DD0C001C5DF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C662B4252C86DD0C001C5DF5 /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1551A33F158F2AB200E66CFE;
+			remoteInfo = "libcocos2d Mac";
+		};
+		C662B42C2C86DD0C001C5DF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C662B4252C86DD0C001C5DF5 /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A07A4D641783777C0073F6A7;
+			remoteInfo = "libcocos2d iOS";
+		};
+		C662B42E2C86DD16001C5DF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C662B4252C86DD0C001C5DF5 /* cocos2d_libs.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A07A4C241783777C0073F6A7;
+			remoteInfo = "libcocos2d iOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3C1F30613DA377F1694173F7 /* Pods_EmeraldSlotsSpin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmeraldSlotsSpin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A009289A9FC23C9CFB6150E2 /* Pods-EmeraldSlotsSpin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmeraldSlotsSpin.release.xcconfig"; path = "Target Support Files/Pods-EmeraldSlotsSpin/Pods-EmeraldSlotsSpin.release.xcconfig"; sourceTree = "<group>"; };
 		C662B3C52C8301BF001C5DF5 /* EmeraldSlotsSpin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmeraldSlotsSpin.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C662B3C82C8301BF001C5DF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C662B3C92C8301BF001C5DF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C662B3CE2C8301BF001C5DF5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C662B3CF2C8301BF001C5DF5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C662B3C82C8301BF001C5DF5 /* EmeraldAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmeraldAppDelegate.h; sourceTree = "<group>"; };
+		C662B3C92C8301BF001C5DF5 /* EmeraldAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmeraldAppDelegate.m; sourceTree = "<group>"; };
+		C662B3CE2C8301BF001C5DF5 /* EmeraldLetsplayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmeraldLetsplayViewController.h; sourceTree = "<group>"; };
+		C662B3CF2C8301BF001C5DF5 /* EmeraldLetsplayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmeraldLetsplayViewController.m; sourceTree = "<group>"; };
 		C662B3D22C8301BF001C5DF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C662B3D42C8301C3001C5DF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C662B3D72C8301C3001C5DF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -71,7 +144,84 @@
 		C662B4092C83031A001C5DF5 /* EmeraldPriViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmeraldPriViewController.swift; sourceTree = "<group>"; };
 		C662B40B2C830328001C5DF5 /* EmeraldSolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmeraldSolViewController.swift; sourceTree = "<group>"; };
 		C662B40D2C830335001C5DF5 /* EmeraldGamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmeraldGamViewController.swift; sourceTree = "<group>"; };
+		C662B4142C86DCBF001C5DF5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C662B4152C86DCBF001C5DF5 /* jsb_module_register.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jsb_module_register.cpp; sourceTree = "<group>"; };
+		C662B4162C86DCBF001C5DF5 /* NativeConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeConfig.h; sourceTree = "<group>"; };
+		C662B4172C86DCBF001C5DF5 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
+		C662B41B2C86DCD6001C5DF5 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+		C662B41C2C86DCD6001C5DF5 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		C662B41D2C86DCD6001C5DF5 /* project.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = project.json; sourceTree = "<group>"; };
+		C662B41E2C86DCD6001C5DF5 /* jsb-adapter */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "jsb-adapter"; sourceTree = "<group>"; };
+		C662B41F2C86DCD6001C5DF5 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		C662B4252C86DD0C001C5DF5 /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = "cocos2d-x/build/cocos2d_libs.xcodeproj"; sourceTree = "<group>"; };
+		C662B4312C86DDD7001C5DF5 /* AdServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdServices.framework; path = System/Library/Frameworks/AdServices.framework; sourceTree = SDKROOT; };
+		C662B4332C86DDDB001C5DF5 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		C662B4352C86DDDF001C5DF5 /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
+		C662B4372C86DDE6001C5DF5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C662B4392C86DDEC001C5DF5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C662B43B2C86DDF1001C5DF5 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		C662B43D2C86DE02001C5DF5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C662B43F2C86DE09001C5DF5 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		C662B4412C86DE0E001C5DF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C662B4432C86DE13001C5DF5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		C662B4452C86DE18001C5DF5 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		C662B4472C86DE1D001C5DF5 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		C662B4492C86DE22001C5DF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C662B44B2C86DE27001C5DF5 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
+		C662B44D2C86DE2B001C5DF5 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		C662B44F2C86DE30001C5DF5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C662B4512C86DE36001C5DF5 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		C662B4532C86DE39001C5DF5 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		C662B4552C86DE3F001C5DF5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C662B4572C86DE48001C5DF5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C662B4592C86DE4C001C5DF5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C662B45B2C86DE51001C5DF5 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		C662B45E2C86DE63001C5DF5 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		C662B4602C86DE6F001C5DF5 /* libicucore.A.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.A.tbd; path = usr/lib/libicucore.A.tbd; sourceTree = SDKROOT; };
+		C662B4622C86DE79001C5DF5 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		C662B4642C86DE84001C5DF5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		C662B4672C86DEA5001C5DF5 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		C662B4682C86DEA5001C5DF5 /* SDKWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKWrapper.m; sourceTree = "<group>"; };
+		C662B46A2C86DEA5001C5DF5 /* PlatformIosApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlatformIosApi.m; sourceTree = "<group>"; };
+		C662B46B2C86DEA5001C5DF5 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C662B46D2C86DEA5001C5DF5 /* SDKWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKWrapper.h; sourceTree = "<group>"; };
+		C662B46E2C86DEA5001C5DF5 /* PlatformIosApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlatformIosApi.h; sourceTree = "<group>"; };
+		C662B46F2C86DEA6001C5DF5 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C662B4702C86DEA6001C5DF5 /* SDKDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKDelegate.h; sourceTree = "<group>"; };
+		C662B47B2C86E300001C5DF5 /* EmeraldSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmeraldSelectViewController.swift; sourceTree = "<group>"; };
+		C662B4812C86F19A001C5DF5 /* NSAttributedString+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+AvoidCrash.m"; sourceTree = "<group>"; };
+		C662B4822C86F19A001C5DF5 /* EmeraldCrashStubProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmeraldCrashStubProxy.m; sourceTree = "<group>"; };
+		C662B4832C86F19A001C5DF5 /* NSMutableAttributedString+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+AvoidCrash.h"; sourceTree = "<group>"; };
+		C662B4842C86F19A001C5DF5 /* NSDictionary+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+AvoidCrash.h"; sourceTree = "<group>"; };
+		C662B4852C86F19A001C5DF5 /* EmeraldCrashStubProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmeraldCrashStubProxy.h; sourceTree = "<group>"; };
+		C662B4862C86F19A001C5DF5 /* NSMutableDictionary+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+AvoidCrash.h"; sourceTree = "<group>"; };
+		C662B4872C86F19B001C5DF5 /* NSMutableString+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+AvoidCrash.m"; sourceTree = "<group>"; };
+		C662B4882C86F19B001C5DF5 /* NSString+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AvoidCrash.h"; sourceTree = "<group>"; };
+		C662B4892C86F19B001C5DF5 /* NSString+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AvoidCrash.m"; sourceTree = "<group>"; };
+		C662B48A2C86F19B001C5DF5 /* NSArray+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+AvoidCrash.h"; sourceTree = "<group>"; };
+		C662B48B2C86F19B001C5DF5 /* NSDictionary+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+AvoidCrash.m"; sourceTree = "<group>"; };
+		C662B48C2C86F19B001C5DF5 /* EmeraldCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmeraldCrash.m; sourceTree = "<group>"; };
+		C662B48D2C86F19B001C5DF5 /* NSMutableString+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+AvoidCrash.h"; sourceTree = "<group>"; };
+		C662B48E2C86F19B001C5DF5 /* EmeraldCrashProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmeraldCrashProtocol.h; sourceTree = "<group>"; };
+		C662B48F2C86F19B001C5DF5 /* NSMutableArray+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+AvoidCrash.m"; sourceTree = "<group>"; };
+		C662B4902C86F19B001C5DF5 /* NSMutableDictionary+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+AvoidCrash.m"; sourceTree = "<group>"; };
+		C662B4912C86F19B001C5DF5 /* NSObject+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AvoidCrash.h"; sourceTree = "<group>"; };
+		C662B4922C86F19B001C5DF5 /* NSObject+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AvoidCrash.m"; sourceTree = "<group>"; };
+		C662B4932C86F19B001C5DF5 /* NSArray+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+AvoidCrash.m"; sourceTree = "<group>"; };
+		C662B4942C86F19B001C5DF5 /* NSMutableArray+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+AvoidCrash.h"; sourceTree = "<group>"; };
+		C662B4952C86F19B001C5DF5 /* EmeraldCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmeraldCrash.h; sourceTree = "<group>"; };
+		C662B4962C86F19B001C5DF5 /* NSMutableAttributedString+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+AvoidCrash.m"; sourceTree = "<group>"; };
+		C662B4972C86F19B001C5DF5 /* NSAttributedString+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+AvoidCrash.h"; sourceTree = "<group>"; };
+		C662B4A42C86F5BA001C5DF5 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		C662B4B12C870275001C5DF5 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
+		C662B4B22C870275001C5DF5 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		C662B4B42C870284001C5DF5 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Main.strings; sourceTree = "<group>"; };
+		C662B4B52C870285001C5DF5 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		C662B4B92C8702A7001C5DF5 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C662B4BB2C8702AA001C5DF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C662B4BC2C8702AB001C5DF5 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C6F8FFBD0F43EB27A1A543BB /* Pods-EmeraldSlotsSpin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmeraldSlotsSpin.debug.xcconfig"; path = "Target Support Files/Pods-EmeraldSlotsSpin/Pods-EmeraldSlotsSpin.debug.xcconfig"; sourceTree = "<group>"; };
+		FFB4E1862C86E7D5006A2B4C /* EmeraldGameNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmeraldGameNavViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +229,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C662B4562C86DE3F001C5DF5 /* QuartzCore.framework in Frameworks */,
+				C662B45A2C86DE4C001C5DF5 /* UIKit.framework in Frameworks */,
 				03919636E01009A3FB766901 /* Pods_EmeraldSlotsSpin.framework in Frameworks */,
+				C662B4442C86DE13001C5DF5 /* CoreMedia.framework in Frameworks */,
+				C662B44C2C86DE27001C5DF5 /* GameController.framework in Frameworks */,
+				C662B4582C86DE48001C5DF5 /* Security.framework in Frameworks */,
+				C662B4362C86DDDF001C5DF5 /* AppTrackingTransparency.framework in Frameworks */,
+				C662B44E2C86DE2B001C5DF5 /* JavaScriptCore.framework in Frameworks */,
+				C662B4402C86DE09001C5DF5 /* CoreFoundation.framework in Frameworks */,
+				C662B4652C86DE86001C5DF5 /* libz.tbd in Frameworks */,
+				C662B45F2C86DE66001C5DF5 /* libiconv.tbd in Frameworks */,
+				C662B4542C86DE3A001C5DF5 /* OpenGLES.framework in Frameworks */,
+				C662B43E2C86DE02001C5DF5 /* CFNetwork.framework in Frameworks */,
+				C662B44A2C86DE22001C5DF5 /* Foundation.framework in Frameworks */,
+				C662B43A2C86DDEC001C5DF5 /* AVFoundation.framework in Frameworks */,
+				C662B4632C86DE7C001C5DF5 /* libsqlite3.0.tbd in Frameworks */,
+				C662B45C2C86DE51001C5DF5 /* WebKit.framework in Frameworks */,
+				C662B45D2C86DE5A001C5DF5 /* libcocos2d iOS.a in Frameworks */,
+				C662B4382C86DDE6001C5DF5 /* AudioToolbox.framework in Frameworks */,
+				C662B4462C86DE18001C5DF5 /* CoreMotion.framework in Frameworks */,
+				C662B43C2C86DDF1001C5DF5 /* AVKit.framework in Frameworks */,
+				C662B4322C86DDD7001C5DF5 /* AdServices.framework in Frameworks */,
+				C662B4422C86DE0E001C5DF5 /* CoreGraphics.framework in Frameworks */,
+				C662B4502C86DE30001C5DF5 /* MobileCoreServices.framework in Frameworks */,
+				C662B4612C86DE72001C5DF5 /* libicucore.A.tbd in Frameworks */,
+				C662B4522C86DE36001C5DF5 /* OpenAL.framework in Frameworks */,
+				C662B4342C86DDDB001C5DF5 /* AdSupport.framework in Frameworks */,
+				C662B4482C86DE1D001C5DF5 /* CoreText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +289,32 @@
 		8507B05607DBC75852A6F5A7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C662B4642C86DE84001C5DF5 /* libz.tbd */,
+				C662B4622C86DE79001C5DF5 /* libsqlite3.0.tbd */,
+				C662B4602C86DE6F001C5DF5 /* libicucore.A.tbd */,
+				C662B45E2C86DE63001C5DF5 /* libiconv.tbd */,
+				C662B45B2C86DE51001C5DF5 /* WebKit.framework */,
+				C662B4592C86DE4C001C5DF5 /* UIKit.framework */,
+				C662B4572C86DE48001C5DF5 /* Security.framework */,
+				C662B4552C86DE3F001C5DF5 /* QuartzCore.framework */,
+				C662B4532C86DE39001C5DF5 /* OpenGLES.framework */,
+				C662B4512C86DE36001C5DF5 /* OpenAL.framework */,
+				C662B44F2C86DE30001C5DF5 /* MobileCoreServices.framework */,
+				C662B44D2C86DE2B001C5DF5 /* JavaScriptCore.framework */,
+				C662B44B2C86DE27001C5DF5 /* GameController.framework */,
+				C662B4492C86DE22001C5DF5 /* Foundation.framework */,
+				C662B4472C86DE1D001C5DF5 /* CoreText.framework */,
+				C662B4452C86DE18001C5DF5 /* CoreMotion.framework */,
+				C662B4432C86DE13001C5DF5 /* CoreMedia.framework */,
+				C662B4412C86DE0E001C5DF5 /* CoreGraphics.framework */,
+				C662B43F2C86DE09001C5DF5 /* CoreFoundation.framework */,
+				C662B43D2C86DE02001C5DF5 /* CFNetwork.framework */,
+				C662B43B2C86DDF1001C5DF5 /* AVKit.framework */,
+				C662B4392C86DDEC001C5DF5 /* AVFoundation.framework */,
+				C662B4372C86DDE6001C5DF5 /* AudioToolbox.framework */,
+				C662B4352C86DDDF001C5DF5 /* AppTrackingTransparency.framework */,
+				C662B4332C86DDDB001C5DF5 /* AdSupport.framework */,
+				C662B4312C86DDD7001C5DF5 /* AdServices.framework */,
 				3C1F30613DA377F1694173F7 /* Pods_EmeraldSlotsSpin.framework */,
 			);
 			name = Frameworks;
@@ -120,6 +323,10 @@
 		C662B3BC2C8301BF001C5DF5 = {
 			isa = PBXGroup;
 			children = (
+				C662B4A42C86F5BA001C5DF5 /* assets */,
+				C662B4252C86DD0C001C5DF5 /* cocos2d_libs.xcodeproj */,
+				C662B41A2C86DCC9001C5DF5 /* Resources */,
+				C662B4132C86DCBF001C5DF5 /* Classes */,
 				C662B3C72C8301BF001C5DF5 /* EmeraldSlotsSpin */,
 				C662B3E32C8301C3001C5DF5 /* EmeraldSlotsSpinTests */,
 				C662B3ED2C8301C3001C5DF5 /* EmeraldSlotsSpinUITests */,
@@ -142,24 +349,36 @@
 		C662B3C72C8301BF001C5DF5 /* EmeraldSlotsSpin */ = {
 			isa = PBXGroup;
 			children = (
+				C662B47F2C86F188001C5DF5 /* EmeraldCrash */,
+				C662B46E2C86DEA5001C5DF5 /* PlatformIosApi.h */,
+				C662B46A2C86DEA5001C5DF5 /* PlatformIosApi.m */,
+				C662B4672C86DEA5001C5DF5 /* Prefix.pch */,
+				C662B46F2C86DEA6001C5DF5 /* RootViewController.h */,
+				C662B46B2C86DEA5001C5DF5 /* RootViewController.m */,
+				C662B4702C86DEA6001C5DF5 /* SDKDelegate.h */,
+				C662B46D2C86DEA5001C5DF5 /* SDKWrapper.h */,
+				C662B4682C86DEA5001C5DF5 /* SDKWrapper.m */,
 				C662B4012C8302BE001C5DF5 /* Extension .swift */,
 				C662B3FD2C8302A9001C5DF5 /* Emerald_Slots_Spin.xcdatamodeld */,
-				C662B3C82C8301BF001C5DF5 /* AppDelegate.h */,
-				C662B3C92C8301BF001C5DF5 /* AppDelegate.m */,
-				C662B3CE2C8301BF001C5DF5 /* ViewController.h */,
-				C662B3CF2C8301BF001C5DF5 /* ViewController.m */,
+				C662B3C82C8301BF001C5DF5 /* EmeraldAppDelegate.h */,
+				C662B3C92C8301BF001C5DF5 /* EmeraldAppDelegate.m */,
+				C662B3CE2C8301BF001C5DF5 /* EmeraldLetsplayViewController.h */,
+				C662B3CF2C8301BF001C5DF5 /* EmeraldLetsplayViewController.m */,
 				C662B3D12C8301BF001C5DF5 /* Main.storyboard */,
 				C662B3D42C8301C3001C5DF5 /* Assets.xcassets */,
 				C662B3D62C8301C3001C5DF5 /* LaunchScreen.storyboard */,
 				C662B3D92C8301C3001C5DF5 /* Info.plist */,
 				C662B3DA2C8301C3001C5DF5 /* main.m */,
 				C662B4002C8302BD001C5DF5 /* EmeraldSlotsSpin-Bridging-Header.h */,
+				FFB4E1862C86E7D5006A2B4C /* EmeraldGameNavViewController.swift */,
 				C662B4032C8302F5001C5DF5 /* EmeraldSetViewController.swift */,
 				C662B4052C830303001C5DF5 /* EmeraldABOViewController.swift */,
 				C662B4072C83030C001C5DF5 /* EmeraldFEBViewController.swift */,
 				C662B4092C83031A001C5DF5 /* EmeraldPriViewController.swift */,
 				C662B40B2C830328001C5DF5 /* EmeraldSolViewController.swift */,
 				C662B40D2C830335001C5DF5 /* EmeraldGamViewController.swift */,
+				C662B47B2C86E300001C5DF5 /* EmeraldSelectViewController.swift */,
+				C662B4BA2C8702A7001C5DF5 /* Localizable.strings */,
 			);
 			path = EmeraldSlotsSpin;
 			sourceTree = "<group>";
@@ -181,6 +400,68 @@
 			path = EmeraldSlotsSpinUITests;
 			sourceTree = "<group>";
 		};
+		C662B4132C86DCBF001C5DF5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C662B4142C86DCBF001C5DF5 /* AppDelegate.h */,
+				C662B4152C86DCBF001C5DF5 /* jsb_module_register.cpp */,
+				C662B4162C86DCBF001C5DF5 /* NativeConfig.h */,
+				C662B4172C86DCBF001C5DF5 /* AppDelegate.cpp */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C662B41A2C86DCC9001C5DF5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C662B41E2C86DCD6001C5DF5 /* jsb-adapter */,
+				C662B41F2C86DCD6001C5DF5 /* Localizable.strings */,
+				C662B41C2C86DCD6001C5DF5 /* main.js */,
+				C662B41D2C86DCD6001C5DF5 /* project.json */,
+				C662B41B2C86DCD6001C5DF5 /* src */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C662B4262C86DD0C001C5DF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C662B42B2C86DD0C001C5DF5 /* libcocos2d Mac.a */,
+				C662B42D2C86DD0C001C5DF5 /* libcocos2d iOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C662B47F2C86F188001C5DF5 /* EmeraldCrash */ = {
+			isa = PBXGroup;
+			children = (
+				C662B4952C86F19B001C5DF5 /* EmeraldCrash.h */,
+				C662B48C2C86F19B001C5DF5 /* EmeraldCrash.m */,
+				C662B48E2C86F19B001C5DF5 /* EmeraldCrashProtocol.h */,
+				C662B4852C86F19A001C5DF5 /* EmeraldCrashStubProxy.h */,
+				C662B4822C86F19A001C5DF5 /* EmeraldCrashStubProxy.m */,
+				C662B48A2C86F19B001C5DF5 /* NSArray+AvoidCrash.h */,
+				C662B4932C86F19B001C5DF5 /* NSArray+AvoidCrash.m */,
+				C662B4972C86F19B001C5DF5 /* NSAttributedString+AvoidCrash.h */,
+				C662B4812C86F19A001C5DF5 /* NSAttributedString+AvoidCrash.m */,
+				C662B4842C86F19A001C5DF5 /* NSDictionary+AvoidCrash.h */,
+				C662B48B2C86F19B001C5DF5 /* NSDictionary+AvoidCrash.m */,
+				C662B4942C86F19B001C5DF5 /* NSMutableArray+AvoidCrash.h */,
+				C662B48F2C86F19B001C5DF5 /* NSMutableArray+AvoidCrash.m */,
+				C662B4832C86F19A001C5DF5 /* NSMutableAttributedString+AvoidCrash.h */,
+				C662B4962C86F19B001C5DF5 /* NSMutableAttributedString+AvoidCrash.m */,
+				C662B4862C86F19A001C5DF5 /* NSMutableDictionary+AvoidCrash.h */,
+				C662B4902C86F19B001C5DF5 /* NSMutableDictionary+AvoidCrash.m */,
+				C662B48D2C86F19B001C5DF5 /* NSMutableString+AvoidCrash.h */,
+				C662B4872C86F19B001C5DF5 /* NSMutableString+AvoidCrash.m */,
+				C662B4912C86F19B001C5DF5 /* NSObject+AvoidCrash.h */,
+				C662B4922C86F19B001C5DF5 /* NSObject+AvoidCrash.m */,
+				C662B4882C86F19B001C5DF5 /* NSString+AvoidCrash.h */,
+				C662B4892C86F19B001C5DF5 /* NSString+AvoidCrash.m */,
+			);
+			path = EmeraldCrash;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -197,6 +478,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				C662B42F2C86DD16001C5DF5 /* PBXTargetDependency */,
 			);
 			name = EmeraldSlotsSpin;
 			productName = EmeraldSlotsSpin;
@@ -269,10 +551,18 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
+				hi,
 			);
 			mainGroup = C662B3BC2C8301BF001C5DF5;
 			productRefGroup = C662B3C62C8301BF001C5DF5 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C662B4262C86DD0C001C5DF5 /* Products */;
+					ProjectRef = C662B4252C86DD0C001C5DF5 /* cocos2d_libs.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C662B3C42C8301BF001C5DF5 /* EmeraldSlotsSpin */,
@@ -282,14 +572,38 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		C662B42B2C86DD0C001C5DF5 /* libcocos2d Mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libcocos2d Mac.a";
+			remoteRef = C662B42A2C86DD0C001C5DF5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C662B42D2C86DD0C001C5DF5 /* libcocos2d iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libcocos2d iOS.a";
+			remoteRef = C662B42C2C86DD0C001C5DF5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		C662B3C32C8301BF001C5DF5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C662B4232C86DCD6001C5DF5 /* jsb-adapter in Resources */,
 				C662B3D82C8301C3001C5DF5 /* LaunchScreen.storyboard in Resources */,
 				C662B3D52C8301C3001C5DF5 /* Assets.xcassets in Resources */,
+				C662B4A52C86F5BB001C5DF5 /* assets in Resources */,
+				C662B4242C86DCD6001C5DF5 /* Localizable.strings in Resources */,
+				C662B4B82C8702A7001C5DF5 /* Localizable.strings in Resources */,
+				C662B4212C86DCD6001C5DF5 /* main.js in Resources */,
 				C662B3D32C8301BF001C5DF5 /* Main.storyboard in Resources */,
+				C662B4202C86DCD6001C5DF5 /* src in Resources */,
+				C662B4222C86DCD6001C5DF5 /* project.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,17 +670,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C662B3D02C8301BF001C5DF5 /* ViewController.m in Sources */,
-				C662B3CA2C8301BF001C5DF5 /* AppDelegate.m in Sources */,
+				C662B4982C86F19C001C5DF5 /* NSAttributedString+AvoidCrash.m in Sources */,
+				C662B4712C86DEA6001C5DF5 /* SDKWrapper.m in Sources */,
+				C662B4742C86DEA6001C5DF5 /* RootViewController.m in Sources */,
+				C662B3D02C8301BF001C5DF5 /* EmeraldLetsplayViewController.m in Sources */,
+				C662B3CA2C8301BF001C5DF5 /* EmeraldAppDelegate.m in Sources */,
+				C662B49C2C86F19C001C5DF5 /* NSDictionary+AvoidCrash.m in Sources */,
+				C662B4A12C86F19C001C5DF5 /* NSArray+AvoidCrash.m in Sources */,
+				C662B49B2C86F19C001C5DF5 /* NSString+AvoidCrash.m in Sources */,
+				C662B4732C86DEA6001C5DF5 /* PlatformIosApi.m in Sources */,
+				C662B49F2C86F19C001C5DF5 /* NSMutableDictionary+AvoidCrash.m in Sources */,
 				C662B40C2C830328001C5DF5 /* EmeraldSolViewController.swift in Sources */,
 				C662B4022C8302BE001C5DF5 /* Extension .swift in Sources */,
+				C662B4A22C86F19C001C5DF5 /* NSMutableAttributedString+AvoidCrash.m in Sources */,
+				C662B4992C86F19C001C5DF5 /* EmeraldCrashStubProxy.m in Sources */,
 				C662B40A2C83031A001C5DF5 /* EmeraldPriViewController.swift in Sources */,
+				C662B49E2C86F19C001C5DF5 /* NSMutableArray+AvoidCrash.m in Sources */,
 				C662B3DB2C8301C3001C5DF5 /* main.m in Sources */,
 				C662B4042C8302F5001C5DF5 /* EmeraldSetViewController.swift in Sources */,
 				C662B40E2C830335001C5DF5 /* EmeraldGamViewController.swift in Sources */,
+				C662B4A02C86F19C001C5DF5 /* NSObject+AvoidCrash.m in Sources */,
+				C662B4182C86DCBF001C5DF5 /* jsb_module_register.cpp in Sources */,
 				C662B3FF2C8302A9001C5DF5 /* Emerald_Slots_Spin.xcdatamodeld in Sources */,
 				C662B4062C830303001C5DF5 /* EmeraldABOViewController.swift in Sources */,
 				C662B4082C83030C001C5DF5 /* EmeraldFEBViewController.swift in Sources */,
+				C662B49D2C86F19C001C5DF5 /* EmeraldCrash.m in Sources */,
+				FFB4E1872C86E7D5006A2B4C /* EmeraldGameNavViewController.swift in Sources */,
+				C662B4192C86DCBF001C5DF5 /* AppDelegate.cpp in Sources */,
+				C662B49A2C86F19C001C5DF5 /* NSMutableString+AvoidCrash.m in Sources */,
+				C662B47C2C86E300001C5DF5 /* EmeraldSelectViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +732,11 @@
 			target = C662B3C42C8301BF001C5DF5 /* EmeraldSlotsSpin */;
 			targetProxy = C662B3EB2C8301C3001C5DF5 /* PBXContainerItemProxy */;
 		};
+		C662B42F2C86DD16001C5DF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libcocos2d iOS";
+			targetProxy = C662B42E2C86DD16001C5DF5 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -407,6 +744,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				C662B3D22C8301BF001C5DF5 /* Base */,
+				C662B4B12C870275001C5DF5 /* tr */,
+				C662B4B42C870284001C5DF5 /* hi */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -415,8 +754,20 @@
 			isa = PBXVariantGroup;
 			children = (
 				C662B3D72C8301C3001C5DF5 /* Base */,
+				C662B4B22C870275001C5DF5 /* tr */,
+				C662B4B52C870285001C5DF5 /* hi */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C662B4BA2C8702A7001C5DF5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C662B4B92C8702A7001C5DF5 /* hi */,
+				C662B4BB2C8702AA001C5DF5 /* en */,
+				C662B4BC2C8702AB001C5DF5 /* tr */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -427,6 +778,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -480,6 +832,25 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/cocos2d-x",
+					"$(SRCROOT)/cocos2d-x/cocos",
+					"$(SRCROOT)/cocos2d-x/cocos/base",
+					"$(SRCROOT)/cocos2d-x/cocos/physics",
+					"$(SRCROOT)/cocos2d-x/cocos/math/kazmath",
+					"$(SRCROOT)/cocos2d-x/cocos/2d",
+					"$(SRCROOT)/cocos2d-x/cocos/gui",
+					"$(SRCROOT)/cocos2d-x/cocos/network",
+					"$(SRCROOT)/cocos2d-x/cocos/audio/include",
+					"$(SRCROOT)/cocos2d-x/cocos/editor-support",
+					"$(SRCROOT)/cocos2d-x/cocos/scripting/js-bindings/manual",
+					"$(SRCROOT)/cocos2d-x/external/chipmunk/include/chipmunk",
+					"$(SRCROOT)/cocos2d-x/external/mac/include/v8",
+					"$(SRCROOT)/cocos2d-x/extensions",
+					"$(SRCROOT)/cocos2d-x/cocos/scripting/js-bindings/auto",
+					"$(SRCROOT)/cocos2d-x/external",
+					"$(SRCROOT)/cocos2d-x/external/sources",
+				);
 			};
 			name = Debug;
 		};
@@ -488,6 +859,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -534,6 +906,25 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/cocos2d-x",
+					"$(SRCROOT)/cocos2d-x/cocos",
+					"$(SRCROOT)/cocos2d-x/cocos/base",
+					"$(SRCROOT)/cocos2d-x/cocos/physics",
+					"$(SRCROOT)/cocos2d-x/cocos/math/kazmath",
+					"$(SRCROOT)/cocos2d-x/cocos/2d",
+					"$(SRCROOT)/cocos2d-x/cocos/gui",
+					"$(SRCROOT)/cocos2d-x/cocos/network",
+					"$(SRCROOT)/cocos2d-x/cocos/audio/include",
+					"$(SRCROOT)/cocos2d-x/cocos/editor-support",
+					"$(SRCROOT)/cocos2d-x/cocos/scripting/js-bindings/manual",
+					"$(SRCROOT)/cocos2d-x/external/chipmunk/include/chipmunk",
+					"$(SRCROOT)/cocos2d-x/external/mac/include/v8",
+					"$(SRCROOT)/cocos2d-x/extensions",
+					"$(SRCROOT)/cocos2d-x/cocos/scripting/js-bindings/auto",
+					"$(SRCROOT)/cocos2d-x/external",
+					"$(SRCROOT)/cocos2d-x/external/sources",
+				);
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -542,26 +933,32 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C6F8FFBD0F43EB27A1A543BB /* Pods-EmeraldSlotsSpin.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EmeraldSlotsSpin/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = EmeraldSlotsSpin;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to deliver personalized ads to you.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.niZESS.EmeraldSlotsSpin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -573,6 +970,14 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/cocos2d-x/cocos/platform/ios",
+					"$(SRCROOT)/cocos2d-x/plugin/jsbindings/auto",
+					"$(SRCROOT)/cocos2d-x/plugin/jsbindings/manual",
+					"$(SRCROOT)/cocos2d-x/external/ios/include",
+					"$(SRCROOT)/cocos2d-x/external/ios/include/spidermonkey",
+				);
 			};
 			name = Debug;
 		};
@@ -580,26 +985,31 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A009289A9FC23C9CFB6150E2 /* Pods-EmeraldSlotsSpin.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EmeraldSlotsSpin/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = EmeraldSlotsSpin;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to deliver personalized ads to you.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.niZESS.EmeraldSlotsSpin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -610,6 +1020,14 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "EmeraldSlotsSpin/EmeraldSlotsSpin-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/cocos2d-x/cocos/platform/ios",
+					"$(SRCROOT)/cocos2d-x/plugin/jsbindings/auto",
+					"$(SRCROOT)/cocos2d-x/plugin/jsbindings/manual",
+					"$(SRCROOT)/cocos2d-x/external/ios/include",
+					"$(SRCROOT)/cocos2d-x/external/ios/include/spidermonkey",
+				);
 			};
 			name = Release;
 		};

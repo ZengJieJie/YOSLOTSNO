@@ -15,7 +15,7 @@ class EmeraldABOViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func btnBack(_ sender: Any) {
-        navigationController?.popViewController(animated: true)
+        self.dismiss(animated: true)
     }
 
     /*
